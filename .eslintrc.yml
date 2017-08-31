@@ -1,0 +1,16 @@
+extends: airbnb/base
+plugins: [
+  import,
+  chai-friendly,
+]
+rules:
+  import/no-extraneous-dependencies: [error, { devDependencies: true }]
+  # Fix 'chai' expression errors
+  no-unused-expressions: 0
+  chai-friendly/no-unused-expressions: 2
+  # Fix 'env' require, used with process.env
+  no-unused-vars: [error, {varsIgnorePattern: ^env$}]
+env:
+  es6: true
+  node: true
+  mocha: true

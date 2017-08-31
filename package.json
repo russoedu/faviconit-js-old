@@ -1,0 +1,51 @@
+{
+  "name": "faviconit-server",
+  "version": "2.0.0",
+  "description": "Server for Faviconit :: free favicon & apple touch icon creator to all devices and browsers.",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nyc --reporter=html --reporter=text mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russoedu/faviconit-server.git"
+  },
+  "keywords": [
+    "favicon",
+    "browsers",
+    "icon",
+    "conversion",
+    "express",
+    "jimp"
+  ],
+  "author": "Eduardo Russo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/russoedu/faviconit-server/issues"
+  },
+  "homepage": "https://github.com/russoedu/faviconit-server#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "chai": "^4.1.1",
+    "coveralls": "^2.13.1",
+    "esdoc": "^1.0.1",
+    "esdoc-node": "^1.0.2",
+    "esdoc-node-plugin": "^0.2.1",
+    "esdoc-standard-plugin": "^1.0.0",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-chai-friendly": "^0.4.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.3.0",
+    "mocha": "^3.5.0",
+    "nyc": "^11.1.0",
+    "sinon": "^3.2.1"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "jimp": "^0.2.28"
+  }
+}
