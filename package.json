@@ -1,7 +1,7 @@
 {
-  "name": "faviconit-server",
+  "name": "faviconit",
   "version": "0.0.1",
-  "description": "Server for Faviconit :: free favicon & apple touch icon creator to all devices and browsers.",
+  "description": "Faviconit :: free favicon & apple touch icon creator to all devices and browsers.",
   "scripts": {
     "start": "node ./bin/www",
     "test": "nyc --reporter=html --reporter=text mocha",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/russoedu/faviconit-server.git"
+    "url": "git+https://github.com/russoedu/faviconit.git"
   },
   "keywords": [
     "favicon",
@@ -22,9 +22,9 @@
   "author": "Eduardo Russo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/russoedu/faviconit-server/issues"
+    "url": "https://github.com/russoedu/faviconit/issues"
   },
-  "homepage": "https://github.com/russoedu/faviconit-server#readme",
+  "homepage": "https://github.com/russoedu/faviconit#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "coveralls": "^3.0.9",
