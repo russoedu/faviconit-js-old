@@ -19,23 +19,26 @@ app.use(express.urlencoded({ extended: false }))
 app.use(cookieParser())
 app.use(express.static(path.join(__dirname, '../public')))
 
+/**
+ * ROUTES
+ */
 app.use('/', indexRouter)
 app.use('/users', usersRouter)
 
-// catch 404 and forward to error handler
+/**
+ * ERROR HANDLER
+ */
 app.use((req, res, next) => {
   next(createError(404))
 })
 
-// error handler
-app.use((err, req, res) => {
-  // set locals, only providing error in development
-  res.locals.message = err.message
-  res.locals.error = req.app.get('env') === 'development' ? err : {}
-
-  // render the error page
-  res.status(err.status || 500)
-  res.render('error')
+// eslint-disable-next-line no-unused-vars
+app.use((err, req, res, next) => {
+  if (err.status === 404) {
+    return res.status(err.status).render('404', { error: err })
+  } else {
+    return res.status(err.status).render('error', { error: err })
+  }
 })
 
 module.exports = app

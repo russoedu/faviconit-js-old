@@ -4,6 +4,7 @@
   "description": "Faviconit :: free favicon & apple touch icon creator to all devices and browsers.",
   "scripts": {
     "start": "node ./src/index.js",
+    "watch": "set DEBUG=faviconit:* & nodemon ./src/index.js",
     "test": "nyc --reporter=html --reporter=text mocha",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "doc": "./node_modules/.bin/esdoc"
