@@ -1,0 +1,24 @@
+{
+  "source": "./src",
+  "destination": "./docs",
+  "plugins": [
+    {
+      "name": "esdoc-node-plugin",
+      "option": {
+        "base": ".",
+        "devDependencies": false
+      }
+    },
+    {
+      "name": "esdoc-standard-plugin",
+      "option": {
+        "brand": {
+          "title": "Faviconit"
+        }
+      }
+    },
+    {
+      "name": "esdoc-node"
+    }
+  ]
+}
