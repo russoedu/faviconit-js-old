@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-const app = require('../app')
+const app = require('./app.js')
 const debug = require('debug')('faviconit-server:server')
 const http = require('http')
 const env = require('dotenv').config()

@@ -1,6 +1,7 @@
 {
   "source": "./src",
   "destination": "./docs",
+  "includes": ["\\.js$"],
   "plugins": [
     {
       "name": "esdoc-node-plugin",
@@ -13,7 +14,10 @@
       "name": "esdoc-standard-plugin",
       "option": {
         "brand": {
-          "title": "Faviconit"
+          "title": "Faviconit",
+          "description": "Faviconit :: free favicon & apple touch icon creator to all devices and browsers.",
+          "repository": "https://github.com/russoedu/faviconit",
+          "site": "http://faviconit.com"
         }
       }
     },

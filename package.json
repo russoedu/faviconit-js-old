@@ -3,9 +3,10 @@
   "version": "0.0.1",
   "description": "Faviconit :: free favicon & apple touch icon creator to all devices and browsers.",
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "node ./src/index.js",
     "test": "nyc --reporter=html --reporter=text mocha",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "doc": "./node_modules/.bin/esdoc"
   },
   "repository": {
     "type": "git",
