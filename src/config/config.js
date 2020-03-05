@@ -45,6 +45,7 @@ class Config {
       return false
     } else {
       app.locals.readDirection = this.languages.direction(loc)
+      app.locals.url = `http://faviconit.com${req.url}`
       i18n.setLocale(res.locals, loc)
       return loc
     }
