@@ -8,6 +8,7 @@ const createError = require('http-errors')
 
 const Config = require('./config/config')
 const Home = require('./controllers/home')
+const Generate = require('./controllers/generate')
 
 const config = new Config()
 
@@ -36,16 +37,27 @@ i18n.configure({
  * ROUTES
  */
 app.get('/:lang', (req, res) => {
-  if (config.setLocale(req, res, i18n)) {
-    Home.render(req, res, i18n)
+  const loc = config.setLocale(req, res, i18n, app)
+  if (loc) {
+    Home.render(res)
+  }
+})
+
+app.get('/:lang/generate', (req, res) => {
+  if (config.setLocale(req, res, i18n, app, 'generate')) {
+    Generate.render(res)
   }
 })
 
 /**
  * ERROR HANDLER
  */
-app.use((req, res, next) => {
-  next(createError(404))
+app.use('/:lang/*', (req, res, next) => {
+  let path = req.url.split('/')
+  path = path[path.length - 1]
+  if (config.setLocale(req, res, i18n, app, path)) {
+    next(createError(404))
+  }
 })
 
 // eslint-disable-next-line no-unused-vars

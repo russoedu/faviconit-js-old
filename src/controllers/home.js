@@ -1,8 +1,5 @@
-const Config = require('../config/config')
-const config = new Config()
-
 class Home {
-  static render (req, res) {
+  static render (res) {
     res.render('home', { title: 'Faviconit' })
   }
 }

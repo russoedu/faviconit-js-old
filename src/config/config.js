@@ -29,15 +29,24 @@ class Config {
     return instance
   }
 
-  setLocale (req, res, i18n, path = '') {
+  /**
+   *
+   * @param {Request} req
+   * @param {Response} res
+   * @param {i18n} i18n
+   * @param {string} [path='']
+   */
+  setLocale (req, res, i18n, app, path = '') {
     const loc = this.languages.list.find(element => element === req.params.lang)
     debug('Identified locale:', loc)
     if (typeof loc === 'undefined') {
-      res.redirect(`${this.languages.default}${path}`)
+      app.locals.readDirection = this.languages.direction(loc)
+      res.redirect(`/${this.languages.default}/${path}`)
       return false
     } else {
+      app.locals.readDirection = this.languages.direction(loc)
       i18n.setLocale(res.locals, loc)
-      return true
+      return loc
     }
   }
 }

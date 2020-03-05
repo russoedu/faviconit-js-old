@@ -18,7 +18,10 @@ const languages = {
     'sk', // 14
     'el', // 15
     'ar' // 16
-  ]
+  ],
+  direction: function (lang) {
+    return lang === 'ar' ? 'rtl' : 'ltr'
+  }
 }
 
 module.exports = languages
