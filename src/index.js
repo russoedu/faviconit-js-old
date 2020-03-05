@@ -3,9 +3,6 @@
 const debug = require('debug')('faviconit:index')
 const app = require('./app.js')
 const http = require('http')
-const env = require('dotenv').config()
-const port = parseInt(process.env.FAVICONIT_PORT || '3000', 10)
-app.set('port', port)
 
 /**
  * Create HTTP server.
@@ -15,7 +12,7 @@ const server = http.createServer(app)
 /**
  * Listen on provided port, on all network interfaces.
  */
-server.listen(port)
+server.listen(app.get('port'))
 server.on('error', onError)
 server.on('listening', onListening)
 
@@ -30,10 +27,10 @@ function onError (error) {
   }
   switch (error.code) {
     case 'EACCES':
-      console.error(`Port ${port} requires elevated privileges`)
+      console.error(`Port ${app.get('port')} requires elevated privileges`)
       process.exit(1)
     case 'EADDRINUSE':
-      console.error(`Port ${port} is already in use`)
+      console.error(`Port ${app.get('port')} is already in use`)
       process.exit(1)
     default:
       throw error
@@ -44,5 +41,5 @@ function onError (error) {
  * Event listener for HTTP server "listening" event.
  */
 function onListening () {
-  debug(`Listening on port ${port}`)
+  debug(`Listening on port ${app.get('port')}`)
 }
