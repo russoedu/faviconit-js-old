@@ -26,38 +26,68 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 app.use(cookieParser())
 app.use(express.static(path.join(__dirname, '../public')))
-app.use(i18n.init)
 
+/**
+ * i18n middleware configuration
+ */
 i18n.configure({
-  locales: config.languages.list,
+  locales: config.language.list,
+  defaultLocale: config.language.default,
+  queryParameter: 'lang',
+  autoReload: true,
+  api: {
+    __: '__',
+    __n: '__n'
+  },
   directory: path.join(__dirname, 'locales')
 })
+app.use(i18n.init)
 
 /**
  * ROUTES
  */
-app.get('/:lang', (req, res) => {
-  const loc = config.setLocale(req, res, i18n, app)
-  if (loc) {
-    Home.render(res)
+function langRouter (req, res, next) {
+  if (config.language.list.find(element => element === req.params.lang)) {
+    i18n.setLocale([req, res.locals], req.params.lang)
+    res.locals.language = `/${req.params.lang}`
+    app.locals.readDirection = config.language.direction(req.params.lang)
+    app.locals.url = `http://faviconit.com${req.url}`
+  } else {
+    res.redirect(`/${config.language.default}`)
   }
+  next()
+}
+
+app.all('/', (req, res) => {
+  const acceptedLanguagesRegEx = /([a-z]{2})/g
+  const acceptedLanguages = req.headers['accept-language'].match(acceptedLanguagesRegEx)
+  debug(req.headers['accept-language'])
+  debug(acceptedLanguages)
+  acceptedLanguages.forEach(language => {
+    const foundLang = config.language.list.find(element => element === language)
+    if (typeof foundLang !== 'undefined') {
+      return res.status(302).redirect(`/${foundLang}`)
+    }
+  })
+  return res.status(302).redirect(`/${config.language.default}`)
+})
+
+app.all('/:lang/*', langRouter)
+app.use('/:lang', langRouter)
+
+app.get('/:lang', (req, res) => {
+  Home.render(res)
 })
 
 app.get('/:lang/generate', (req, res) => {
-  if (config.setLocale(req, res, i18n, app, 'generate')) {
-    Generate.render(res)
-  }
+  Generate.render(res)
 })
 
 /**
  * ERROR HANDLER
  */
 app.use('/:lang/*', (req, res, next) => {
-  let path = req.url.split('/')
-  path = path[path.length - 1]
-  if (config.setLocale(req, res, i18n, app, path)) {
-    next(createError(404))
-  }
+  next(createError(404))
 })
 
 // eslint-disable-next-line no-unused-vars

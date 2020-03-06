@@ -1,4 +1,4 @@
-const languages = {
+const language = {
   default: 'en',
   list: [
     'de', // 1
@@ -24,4 +24,4 @@ const languages = {
   }
 }
 
-module.exports = languages
+module.exports = language

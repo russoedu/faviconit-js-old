@@ -28,28 +28,6 @@ class Config {
     instance = this
     return instance
   }
-
-  /**
-   *
-   * @param {Request} req
-   * @param {Response} res
-   * @param {i18n} i18n
-   * @param {string} [path='']
-   */
-  setLocale (req, res, i18n, app, path = '') {
-    const loc = this.languages.list.find(element => element === req.params.lang)
-    debug('Identified locale:', loc)
-    if (typeof loc === 'undefined') {
-      app.locals.readDirection = this.languages.direction(loc)
-      res.redirect(`/${this.languages.default}/${path}`)
-      return false
-    } else {
-      app.locals.readDirection = this.languages.direction(loc)
-      app.locals.url = `http://faviconit.com${req.url}`
-      i18n.setLocale(res.locals, loc)
-      return loc
-    }
-  }
 }
 
 module.exports = Config
