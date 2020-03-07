@@ -7,8 +7,6 @@ const cookieParser = require('cookie-parser')
 const createError = require('http-errors')
 
 const Config = require('./config/config')
-const Home = require('./controllers/home')
-const Generate = require('./controllers/generate')
 
 const config = new Config()
 
@@ -22,30 +20,28 @@ app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'pug')
 
 app.use(logger('dev'))
+app.use(cookieParser())
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
-app.use(cookieParser())
 app.use(express.static(path.join(__dirname, '../public')))
 
 /**
  * i18n middleware configuration
  */
-i18n.configure({
-  locales: config.language.list,
-  defaultLocale: config.language.default,
-  queryParameter: 'lang',
-  autoReload: true,
-  api: {
-    __: '__',
-    __n: '__n'
-  },
-  directory: path.join(__dirname, 'locales')
-})
+i18n.configure(config.language.i18nConfig)
 app.use(i18n.init)
 
-/**
- * ROUTES
- */
+function acceptedLang (req, res) {
+  const acceptedLanguagesRegEx = /([a-z]{2})/g
+  const acceptedLanguages = req.headers['accept-language'].match(acceptedLanguagesRegEx)
+  acceptedLanguages.forEach(lang => {
+    const foundLang = config.language.list.find(element => element === lang)
+    if (typeof foundLang !== 'undefined') {
+      return res.status(302).redirect(`/${foundLang}`)
+    }
+  })
+  return res.status(302).redirect(`/${config.language.default}`)
+}
 function langRouter (req, res, next) {
   if (config.language.list.find(element => element === req.params.lang)) {
     i18n.setLocale([req, res.locals], req.params.lang)
@@ -53,28 +49,20 @@ function langRouter (req, res, next) {
     app.locals.readDirection = config.language.direction(req.params.lang)
     app.locals.url = `http://faviconit.com${req.url}`
   } else {
-    res.redirect(`/${config.language.default}`)
+    next(createError(404))
   }
   next()
 }
 
-app.all('/', (req, res) => {
-  const acceptedLanguagesRegEx = /([a-z]{2})/g
-  const acceptedLanguages = req.headers['accept-language'].match(acceptedLanguagesRegEx)
-  debug(req.headers['accept-language'])
-  debug(acceptedLanguages)
-  acceptedLanguages.forEach(language => {
-    const foundLang = config.language.list.find(element => element === language)
-    if (typeof foundLang !== 'undefined') {
-      return res.status(302).redirect(`/${foundLang}`)
-    }
-  })
-  return res.status(302).redirect(`/${config.language.default}`)
-})
-
+/**
+ * ROUTES
+ */
+app.get('/', acceptedLang)
 app.all('/:lang/*', langRouter)
 app.use('/:lang', langRouter)
 
+const Home = require('./controllers/home')
+const Generate = require('./controllers/generate')
 app.get('/:lang', (req, res) => {
   Home.render(res)
 })

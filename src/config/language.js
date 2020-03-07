@@ -1,3 +1,6 @@
+const path = require('path')
+const i18n = require('i18n')
+
 const language = {
   default: 'en',
   list: [
@@ -21,6 +24,17 @@ const language = {
   ],
   direction: function (lang) {
     return lang === 'ar' ? 'rtl' : 'ltr'
+  },
+  i18nConfig: {
+    locales: this.list,
+    defaultLocale: this.default,
+    queryParameter: 'lang',
+    autoReload: true,
+    api: {
+      __: '__',
+      __n: '__n'
+    },
+    directory: path.join(__dirname, '../locales')
   }
 }
 
