@@ -31,29 +31,6 @@ app.use(express.static(path.join(__dirname, '../public')))
 i18n.configure(config.language.i18nConfig)
 app.use(i18n.init)
 
-function acceptedLang (req, res) {
-  const acceptedLanguagesRegEx = /([a-z]{2})/g
-  const acceptedLanguages = req.headers['accept-language'].match(acceptedLanguagesRegEx)
-  acceptedLanguages.forEach(lang => {
-    const foundLang = config.language.list.find(element => element === lang)
-    if (typeof foundLang !== 'undefined') {
-      return res.status(302).redirect(`/${foundLang}`)
-    }
-  })
-  return res.status(302).redirect(`/${config.language.default}`)
-}
-function langRouter (req, res, next) {
-  if (config.language.list.find(element => element === req.params.lang)) {
-    i18n.setLocale([req, res.locals], req.params.lang)
-    res.locals.language = `/${req.params.lang}`
-    app.locals.readDirection = config.language.direction(req.params.lang)
-    app.locals.url = `http://faviconit.com${req.url}`
-  } else {
-    next(createError(404))
-  }
-  next()
-}
-
 /**
  * ROUTES
  */
@@ -63,13 +40,9 @@ app.use('/:lang', langRouter)
 
 const Home = require('./controllers/home')
 const Generate = require('./controllers/generate')
-app.get('/:lang', (req, res) => {
-  Home.render(res)
-})
+app.get('/:lang', (req, res) => { Home.render(res) })
 
-app.get('/:lang/generate', (req, res) => {
-  Generate.render(res)
-})
+app.get('/:lang/generate', (req, res) => { Generate.render(res) })
 
 /**
  * ERROR HANDLER
@@ -89,3 +62,29 @@ app.use((err, req, res, next) => {
 })
 
 module.exports = app
+
+function acceptedLang (req, res, next) {
+  const acceptedLanguagesRegEx = /([a-z]{2})/g
+  const acceptedLanguages = req.headers['accept-language'].match(acceptedLanguagesRegEx)
+  let lang = config.language.default
+  for (let i = 0; i < acceptedLanguages.length; i++) {
+    const foundLang = config.language.list.find(element => element === acceptedLanguages[i])
+    if (typeof foundLang !== 'undefined') {
+      lang = foundLang
+      break
+    }
+  }
+  debug(`Identified language: ${lang}`)
+  return res.status(302).redirect(`/${lang}`)
+}
+function langRouter (req, res, next) {
+  if (config.language.list.find(element => element === req.params.lang)) {
+    i18n.setLocale([req, res.locals], req.params.lang)
+    res.locals.language = `/${req.params.lang}`
+    app.locals.readDirection = config.language.direction(req.params.lang)
+    app.locals.url = `http://faviconit.com${req.url}`
+    next()
+  } else {
+    next(createError(404))
+  }
+}
