@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
 const debug = require('debug')('faviconit:index')
-const app = require('./app.js')
+const App = require('./app.js')
 const http = require('http')
 
+const app = new App()
 /**
  * Create HTTP server.
  */

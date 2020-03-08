@@ -1,10 +1,7 @@
-extends layout
-
+extends templates/layout
+//- http://rajasegar.github.io/PUG-Bootstrap/components.html#buttons
 block content
-  h1= title
-  p Welcome to #{title}
-  p Locale: #{locale}
-
+  +a-btn("#") Default Link Button
   p #{__('pageTitle')}
   p #{__('socialImage')}
   p #{__('homeHighlight')}

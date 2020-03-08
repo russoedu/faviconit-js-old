@@ -7,7 +7,7 @@
     "watch": "set DEBUG=faviconit:* & nodemon ./src/index.js",
     "test": "nyc --reporter=html --reporter=text mocha",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "doc": "./node_modules/.bin/esdoc"
+    "doc": "esdoc"
   },
   "repository": {
     "type": "git",
@@ -54,7 +54,9 @@
     "express": "^4.17.1",
     "http-errors": "^1.7.3",
     "i18n": "^0.8.5",
+    "jade-bootstrap": "^1.0.14",
     "morgan": "^1.9.1",
     "pug": "^2.0.4"
-  }
+  },
+  "main": "index.js"
 }
