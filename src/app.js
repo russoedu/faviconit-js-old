@@ -23,8 +23,12 @@ class App {
     const Home = require('./controllers/home')
     const Generate = require('./controllers/generate')
 
-    app.get('/:lang', (req, res) => { Home.render(res) })
-    app.get('/:lang/generate', (req, res) => { Generate.render(res) })
+    app.get('/:lang', (req, res) => {
+      Home.render(res, { page: '' })
+    })
+    app.get('/:lang/generate', (req, res) => {
+      Generate.render(res, { page: 'generate' })
+    })
 
     this.setErrors()
 
@@ -107,7 +111,7 @@ class App {
     const acceptedLanguages = req.headers['accept-language'].match(acceptedLanguagesRegEx)
     let lang = config.language.default
     for (let i = 0; i < acceptedLanguages.length; i++) {
-      const foundLang = config.language.list.find(element => element === acceptedLanguages[i])
+      const foundLang = Object.keys(config.language.list).find(element => element === acceptedLanguages[i])
       if (typeof foundLang !== 'undefined') {
         lang = foundLang
         break
@@ -129,11 +133,12 @@ class App {
     debug(typeof req)
     debug(typeof res)
     debug(typeof next)
-    if (config.language.list.find(element => element === req.params.lang)) {
+    if (Object.keys(config.language.list).find(element => element === req.params.lang)) {
       debug(`Identified language: ${req.params.lang}`)
       i18n.setLocale([req, res.locals], req.params.lang)
-      res.locals.language = `/${req.params.lang}`
-      app.locals.readDirection = config.language.direction(req.params.lang)
+      // res.locals.language = `/${req.params.lang}`
+      app.locals.language = config.language.list[req.params.lang]
+      app.locals.languagesList = config.language.list
       app.locals.url = `http://faviconit.com${req.url}`
       next()
     } else {

@@ -1,6 +1,6 @@
 class Generate {
-  static render (res) {
-    res.render('generate', { title: 'Faviconit' })
+  static render (res, data) {
+    res.render('generate', data)
   }
 }
 

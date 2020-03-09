@@ -1,16 +1,15 @@
-+navbar(title)
-  +nav_item("index.html","active") Home
-  +nav_item("about.html") About
-  +nav_item("contact.html") Contact
-  +nav_item_dropdown("#")(label="Dropdown")
-    +nav_item("#") Action
-    +nav_item("#") Another Action
-    +nav_item("#") Something else here
-    +nav_divider
-    +nav_header Nav header
-    +nav_item("#") Separated link
-    +nav_item("#") One more separated link
-
-p Welcome to #{title}
-p Locale: #{locale}
-hr
+header.navbar.navbar-dark.bg-dark.fixed-top
+  a.brand(href='/' + language.key)
+    img(src='/img/faviconit-logo.png')
+  //- div.collapse.navbar-collapse
+  ul.nav.justify-content-end
+    li.nav-item
+      a.nav-link Facebook
+    li.nav-item
+      a.nav-link Twitter
+    //- @include('social.header')
+    li.nav-item.dropdown
+      a.nav-link.dropdown-toggle(data-toggle='dropdown', href='#', role='button', aria-haspopup='true', aria-expanded='false')= languagesList[locale].native
+      div.dropdown-menu(style='width: 200px; left: -90px;', x-placement='bottom-start')
+        each lang in languagesList
+          a.dropdown-item(rel='alternate', hreflang= val, href='/' + lang.key + '/' + page)= lang.native

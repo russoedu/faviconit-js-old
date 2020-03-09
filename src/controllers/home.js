@@ -1,6 +1,6 @@
 class Home {
-  static render (res) {
-    res.render('home', { title: 'Faviconit' })
+  static render (res, data) {
+    res.render('home', data)
   }
 }
 
