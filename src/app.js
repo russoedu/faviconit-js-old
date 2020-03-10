@@ -1,14 +1,15 @@
 const debug = require('debug')('faviconit:app')
-const path = require('path')
-const logger = require('morgan')
 const express = require('express')
 const i18n = require('i18n')
-const cookieParser = require('cookie-parser')
 const createError = require('http-errors')
 
-const Config = require('./config/config')
-const config = new Config()
 const app = express()
+
+const LanguageHelper = require('./helpers/language')
+const languageHelper = new LanguageHelper(app, i18n)
+
+const ExpressHelper = require('./helpers/express')
+const expressHelper = new ExpressHelper(app)
 
 /**
  * Express app creator
@@ -16,8 +17,13 @@ const app = express()
  */
 class App {
   constructor () {
-    this.expressSetup()
-    this.setMainRoutes()
+    expressHelper.setup()
+    languageHelper.setup()
+
+    // Main routes
+    app.get('/', App._languageRedirect)
+    app.all('/:lang/*', App._langRouter)
+    app.use('/:lang', App._langRouter)
 
     // Controllers
     const Home = require('./controllers/home')
@@ -30,54 +36,11 @@ class App {
       Generate.render(res, { page: 'generate' })
     })
 
-    this.setErrors()
+    // Error handlers
+    app.use('/*', (req, res, next) => next(createError(404)))
+    app.use(App._errorResponse)
 
     return app
-  }
-
-  /**
-   * Setup express app
-   */
-  expressSetup () {
-    i18n.configure(config.language.i18nConfig)
-    app.set('port', config.server.port)
-    app.set('views', path.join(__dirname, 'views'))
-    app.set('view engine', 'pug')
-    app.use(logger('dev'))
-    app.use(cookieParser())
-    app.use(express.json())
-    app.use(express.urlencoded({ extended: false }))
-    app.use(express.static(path.join(__dirname, '../public')))
-    app.use(i18n.init)
-  }
-
-  /**
-   * Set the main, default routes
-   */
-  setMainRoutes () {
-    app.get('/', App._acceptedLang)
-    app.all('/:lang/*', App._langRouter)
-    app.use('/:lang', App._langRouter)
-  }
-
-  /**
-   * Set the errors
-   */
-  setErrors () {
-    app.use('/*', App._errorHandler)
-    app.use(App._errorResponse)
-  }
-
-  /**
-   * Handle general errors
-   * @static
-   * @private
-   * @param {*} req HTTP request
-   * @param {*} res HTTP response
-   * @param {function(err:any, req:any, res:any, next:function)} next Express next callback function
-   */
-  static _errorHandler (req, res, next) {
-    next(createError(404))
   }
 
   /**
@@ -100,29 +63,20 @@ class App {
   }
 
   /**
-   * Handle language check if no language set in the URL. Redirect to the browser identified language or the default
+   * Handle language check if no language set in the URL. Redirect to the browser identified language or the default language
    * @static
    * @private
    * @param {*} req HTTP request
    * @param {*} res HTTP response
+   * @returns {*} redirect to the identified language
    */
-  static _acceptedLang (req, res) {
-    const acceptedLanguagesRegEx = /([a-z]{2})/g
-    const acceptedLanguages = req.headers['accept-language'].match(acceptedLanguagesRegEx)
-    let lang = config.language.default
-    for (let i = 0; i < acceptedLanguages.length; i++) {
-      const foundLang = Object.keys(config.language.list).find(element => element === acceptedLanguages[i])
-      if (typeof foundLang !== 'undefined') {
-        lang = foundLang
-        break
-      }
-    }
-    debug(`Identified language: ${lang}`)
+  static _languageRedirect (req, res) {
+    const lang = languageHelper.getUserLanguage(req)
     return res.status(302).redirect(`/${lang}`)
   }
 
   /**
-   * Identify the language in the URL and set in the app OR redirect to an error if language is not identified
+   * Route the application to the corect language
    * @static
    * @private
    * @param {*} req HTTP request
@@ -130,20 +84,40 @@ class App {
    * @param {function(err:any, req:any, res:any, next:function)} next Express next callback function
    */
   static _langRouter (req, res, next) {
-    debug(typeof req)
-    debug(typeof res)
-    debug(typeof next)
-    if (Object.keys(config.language.list).find(element => element === req.params.lang)) {
-      debug(`Identified language: ${req.params.lang}`)
-      i18n.setLocale([req, res.locals], req.params.lang)
-      // res.locals.language = `/${req.params.lang}`
-      app.locals.language = config.language.list[req.params.lang]
-      app.locals.languagesList = config.language.list
-      app.locals.url = `http://faviconit.com${req.url}`
+    if (languageHelper.setLang(req, res)) {
       next()
-    } else {
-      next(createError(404))
     }
+    next(createError(404))
+  }
+
+  /**
+   * Event listener for HTTP server "error" event.
+   * @param {error} error Server error
+   * @throws {error} Server error
+   * @static
+   */
+  static onError (error) {
+    if (error.syscall !== 'listen') {
+      throw error
+    }
+    switch (error.code) {
+      case 'EACCES':
+        console.error(`Port ${app.get('port')} requires elevated privileges`)
+        process.exit(1)
+      case 'EADDRINUSE':
+        console.error(`Port ${app.get('port')} is already in use`)
+        process.exit(1)
+      default:
+        throw error
+    }
+  }
+
+  /**
+   * Event listener for HTTP server "listening" event.
+   * @static
+   */
+  static onListening () {
+    debug(`Listening on port ${app.get('port')}`)
   }
 }
 
