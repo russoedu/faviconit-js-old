@@ -1,6 +1,41 @@
 extends templates/layout
 //- http://rajasegar.github.io/PUG-Bootstrap/components.html#buttons
 block content
+  div.card#description
+    //- img.card-img-top(src='/img/main-image.png', alt='Created with Faviconit')
+    div.card-body
+      h5.card-title!= __('homeHighlight')
+      p.card-text!= __('homeSubHighlight')
+
+  div.card
+    div.card-header.text-center= __('fillTheForm')
+    div.card-body
+      form
+        div.alert.alert-danger.alert-dismissable
+          button.close(type='button' data-dismiss='alert') &times;
+          p ERROR
+          //- @foreach($errors->all() as $error)
+          //- {{ $error }}</br>
+          //- @endforeach
+        form(action="upload" method="post" enctype="multipart/form-data")
+          input#filer_input(type="file" name="files[]" multiple="multiple")
+          input(type="submit" value="Submit")
+        div.form-group
+          label.control-label.col-sm-3(for="iconFile")= __('faviconFile')
+          div.col-sm-9
+            div#upload-mask
+              div#fileUploader= __('formFileChoose')
+              span.help-block!= __('formFileHelp')
+            div#imageDisplay
+      h5.card-title Special title treatment
+      p.card-text With supporting text below as a natural lead-in to additional content.
+      a(href='#' class='btn btn-primary') Go somewhere
+      div
+        img#image(src='/img/faviconit-social-logo-3.png')
+        div.docs-preview.clearfix
+          div.img-preview.preview-lg(style='width: 310px; height: 310px;')
+        </div)
+    div.card-footer.text-muted 2 days ago
   p #{__('pageTitle')}
   p #{__('socialImage')}
   p #{__('homeHighlight')}
@@ -46,4 +81,4 @@ block content
   p #{__('instructions')}
   p #{__('instructionsBlock')}
   p #{__('helpUsTranslate')}
-  #{__('donationButton')}
+  p #{__('donationButton')}

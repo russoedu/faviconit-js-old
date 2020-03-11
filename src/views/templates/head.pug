@@ -1,15 +1,11 @@
-header.navbar.navbar-dark.bg-dark.fixed-top
+include scripts/social
+header.navbar.navbar-dark.sticky-top
   a.brand(href='/' + language.key)
-    img(src='/img/faviconit-logo.png')
-  //- div.collapse.navbar-collapse
+    img(src='/img/faviconit-logo.svg', alt='logo')
   ul.nav.justify-content-end
-    li.nav-item
-      a.nav-link Facebook
-    li.nav-item
-      a.nav-link Twitter
-    //- @include('social.header')
-    li.nav-item.dropdown
-      a.nav-link.dropdown-toggle(data-toggle='dropdown', href='#', role='button', aria-haspopup='true', aria-expanded='false')= languagesList[locale].native
-      div.dropdown-menu(style='width: 200px; left: -90px;', x-placement='bottom-start')
-        each lang in languagesList
-          a.dropdown-item(rel='alternate', hreflang= val, href='/' + lang.key + '/' + page)= lang.native
+    li.nav-item.social-button#facebook
+      include head/facebook
+    li.nav-item.social-button#twitter
+      include head/twitter
+    li.nav-item.dropdown.nav-pills
+      include head/languages

@@ -1,0 +1,35 @@
+//- jQuery
+script(src='https://code.jquery.com/jquery-3.4.1.slim.min.js' integrity='sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n' crossorigin='anonymous')
+
+//- Popper
+script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js' integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' crossorigin='anonymous')
+
+//- Font Awesome
+script(src='https://kit.fontawesome.com/c9ecda38a0.js' crossorigin='anonymous')
+
+//- Load Bootstrap JS based on read direction
+if language.dir === 'ltr'
+  script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js' integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6' crossorigin='anonymous')
+else
+  script(src='https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js' integrity='sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k' crossorigin='anonymous')
+
+//- Image cropper
+script(src='https://cdnjs.cloudflare.com/ajax/libs/cropper/4.1.0/cropper.min.js' crossorigin='anonymous')
+script(src='https://cdn.jsdelivr.net/npm/jquery-cropper@1.0.1/dist/jquery-cropper.min.js' crossorigin='anonymous')
+script(src='/js/cropper.js')
+
+//- Upload file
+script(src="/js/jquery.filer.min.js")
+include ../scripts/filer
+
+//- {{ HTML::script('//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js$ver') }}
+
+//- {{ HTML::script('/assets/js/faviconit.viewManipulation.js$ver') }}
+//- {{ HTML::script('/assets/js/faviconit.imageEditor.js$ver') }}
+//- {{ HTML::script('/assets/js/jquery.blockUI.js$ver') }}
+//- {{ HTML::script('/assets/js/jquery.uploadfile.custom.js$ver') }}
+
+//- @include('scripts.fileUpload')
+//- @include('scripts.accordion')
+//- @include('scripts.imageEditor')
+//- </body>

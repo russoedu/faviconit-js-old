@@ -1,11 +1,10 @@
 doctype html
 html(lang=language.key, dir=language.dir)
   head
-    include ../html/head.pug
+    include html/head
   body
-    include head.pug
-    div.container-fluid
-      block content
-    include foot.pug
-    include ../html/foot.pug
+    include head
+    include main
+    include foot
+    include html/foot
 

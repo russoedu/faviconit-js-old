@@ -1,0 +1,12 @@
+a.nav-link.dropdown-toggle.active#language-selector(
+  data-toggle='dropdown',
+  href='#',
+  role='button',
+  aria-haspopup='true',
+  aria-expanded='false')
+    span
+      i.fas.fa-language#language-selector-icon
+      span#language-selector-text= languagesList[locale].native
+div.dropdown-menu(x-placement='bottom-start', aria-labelledby='navbarDropdownMenuLink')
+  each lang in languagesList
+    a.dropdown-item(rel='alternate', href='/' + lang.key + '/' + page)= lang.native

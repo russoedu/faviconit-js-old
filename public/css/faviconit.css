@@ -1,11 +1,96 @@
-.fixed-top {
-    position: sticky;
+/* General */
+:root {
+  --colour-main-blue: #008CBA;
+  --colour-dark-blue: #222D54;
+  --colour-light-blue: #1847ED;
+  --colour-logo-orange: #ff9400;
+  --colour-main-orange: #ED4618;
+  --colour-dark-orange: #C36631;
+  --dark: #222D54;
+}
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.brand {
+  font-family: 'Ubuntu Mono', monospace;
+  color: var(--colour-main-blue);
+}
+.orange {
+  color: var(--colour-logo-orange);
+
+}
+/* Header */
+.navbar {
+  background-color: var(--colour-dark-blue)
+}
+.social-button {
+  padding-top: 6px;
+}
+.nav-item {
+  padding-right: 10px;
+}
+#language-selector {
+  height: 28px;
+  margin-top: 6px;
+  padding: 0 10px;
+  background-color: var(--colour-main-blue);
+}
+#language-selector::after {
+  vertical-align: 0.455em;
+}
+#language-selector-icon {
+  font-size: 27px;
+  line-height: 1;
+}
+#language-selector-text {
+  padding: 0 5px;
+  vertical-align: top;
+}
+.dropdown-menu {
+  width: 200px;
+  left: -70px;
+  top: 45px;
 }
 
+/* Content */
 .container-fluid {
     margin-top: 20px;
+    /* background-color: var(--colour-dark-blue); */
+}
+#ad-top {
+
+}
+#description {
+  margin-bottom: 15px;
+}
+h5.card-title{
+  font-size: 1.7rem;
 }
 
+p.card-text {
+  font-size: 1.5rem;
+}
+
+/* Image */
+
+img {
+  display: block;
+  max-width: 100%;
+}
+.ajax-upload-dragdrop {
+  border: 2px dotted #a5a5c7;
+  width: 420px;
+  color: #dadce3;
+  text-align: left;
+  vertical-align: middle;
+  padding: 10px 10px 0 10px;
+}
+.img-preview {
+  float: left;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  overflow: hidden;
+}
 
 /* div.fakefile {
     position: absolute;

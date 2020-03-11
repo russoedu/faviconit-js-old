@@ -22,8 +22,8 @@ class App {
 
     // Main routes
     app.get('/', App._languageRedirect)
-    app.all('/:lang/*', App._langRouter)
     app.use('/:lang', App._langRouter)
+    // app.all('/:lang/*', App._langRouter)
 
     // Controllers
     const Home = require('./controllers/home')
@@ -86,8 +86,9 @@ class App {
   static _langRouter (req, res, next) {
     if (languageHelper.setLang(req, res)) {
       next()
+    } else {
+      next(createError(404))
     }
-    next(createError(404))
   }
 
   /**
