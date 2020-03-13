@@ -1,6 +1,6 @@
 class Generate {
-  static render (res, data) {
-    res.render('generate', data)
+  static render (req, res) {
+    res.render('generate', { page: 'generate' })
   }
 }
 

@@ -21,7 +21,8 @@ body {
 }
 /* Header */
 .navbar {
-  background-color: var(--colour-dark-blue)
+  background-color: var(--colour-dark-blue);
+  height: 56px;
 }
 .social-button {
   padding-top: 6px;

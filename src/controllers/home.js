@@ -1,6 +1,6 @@
 class Home {
-  static render (res, data) {
-    res.render('home', data)
+  static render (req, res) {
+    res.render('home', { page: '' })
   }
 }
 

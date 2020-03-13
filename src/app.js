@@ -20,21 +20,18 @@ class App {
     expressHelper.setup()
     languageHelper.setup()
 
-    // Main routes
+    // Redirect to a language route
     app.get('/', App._languageRedirect)
+
+    // Check the language and continue if found or create 404 error
     app.use('/:lang', App._langRouter)
-    // app.all('/:lang/*', App._langRouter)
 
     // Controllers
     const Home = require('./controllers/home')
     const Generate = require('./controllers/generate')
 
-    app.get('/:lang', (req, res) => {
-      Home.render(res, { page: '' })
-    })
-    app.get('/:lang/generate', (req, res) => {
-      Generate.render(res, { page: 'generate' })
-    })
+    app.get('/:lang', Home.render)
+    app.get('/:lang/generate', Generate.render)
 
     // Error handlers
     app.use('/*', (req, res, next) => next(createError(404)))
@@ -56,6 +53,8 @@ class App {
   static _errorResponse (err, req, res, next) {
     debug(`error ${err.status}: ${err}`)
     if (err.status === 404) {
+      debug(err)
+      debug(req.url)
       return res.status(err.status).render('404', { error: err })
     } else {
       return res.status(err.status).render('error', { error: err })
@@ -76,7 +75,7 @@ class App {
   }
 
   /**
-   * Route the application to the corect language
+   * Route the application to the corect language or create an error if the language is not found
    * @static
    * @private
    * @param {*} req HTTP request

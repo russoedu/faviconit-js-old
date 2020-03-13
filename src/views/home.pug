@@ -1,5 +1,4 @@
 extends templates/layout
-//- http://rajasegar.github.io/PUG-Bootstrap/components.html#buttons
 block content
   div.card#description
     //- img.card-img-top(src='/img/main-image.png', alt='Created with Faviconit')
@@ -17,9 +16,9 @@ block content
           //- @foreach($errors->all() as $error)
           //- {{ $error }}</br>
           //- @endforeach
-        form(action="upload" method="post" enctype="multipart/form-data")
-          input#filer_input(type="file" name="files[]" multiple="multiple")
-          input(type="submit" value="Submit")
+        //- form(action="upload" method="post" enctype="multipart/form-data")
+        //-   input#filer_input(type="file" name="files[]" multiple="multiple")
+        //-   input(type="submit" value="Submit")
         div.form-group
           label.control-label.col-sm-3(for="iconFile")= __('faviconFile')
           div.col-sm-9
@@ -82,3 +81,4 @@ block content
   p #{__('instructionsBlock')}
   p #{__('helpUsTranslate')}
   p #{__('donationButton')}
+  p!= __mf('validation.max_numeric', { attribute: __('attribute.iconName'), max: 20 })
