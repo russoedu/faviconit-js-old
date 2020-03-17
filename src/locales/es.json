@@ -1,66 +1,81 @@
 {
-    "advancedAccordionColapsed": "avanzado",
-    "advancedAccordionExpanded": "regular",
-    "attribute": {
-        "iconFile": "<strong>archivo favicon</strong>",
-        "iconImage": "<strong>archivo favicon</strong>",
-        "iconLocation": "<strong>carpeta del favicon</strong>",
-        "iconName": "<strong>nombre del favicon</strong>",
-        "iconVersion": "<strong>versión favicon</strong>"
-    },
+  "general": {
+    "ogTitle": "creador gratis de favicon & apple touch icons",
+    "ogDescription": "suba una imagen para crear faviconos, apple touch icons y el HTML header correcto para que funcione en todos los dispositivos y navegadores",
+    "helpUsTranslate": "ayúdanos a traducir :)",
+    "pageTitle": "faviconit :: creador gratis de favicon & apple touch icons para todos los dispositivos y navegadores"
+  },
+  "home": {
+    "meta": "suba una imagen para crear faviconos, apple touch icons y el HTML header correcto para que funcione en todos los dispositivos y navegadores",
+    "socialImage": "creador gratis de favicon & apple touch icons\npara todos los dispositivos y navegadores",
+    "highlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> crear <i>faviconos</i>, <i>apple touch icons</i> y el <i>HTML header</i> para todos los dispositivos y navegadores",
+    "subHighlight": "es gratis! el creador de favicon más sencillo ya visto! lo único que tienes que hacer es subir una imagen!",
+    "form": {
+      "title": "complete el formulario y cree gratis su favicon",
+      "file": {
+        "title": "archivo favicon",
+        "choose": "seleccione el archivo",
+        "dragNDrop": "<span>o arrastre y solte</span>",
+        "help": "la imagen debe ser <strong> de 310x310px mínimo<strong> con <strong> un máximo de 1MB",
+        "editImage": "editar imagen",
+        "swapImage": "cambiar imagen",
+        "abortUpload": "abortar",
+        "multiDragError": "arrastre y solte un solo archivo",
+        "uploaderBlockMessage": "cargando archivo…",
+        "uploadError": "hubo un error al salvar la imagen. por favor, intente de nuevo."
+      },
+      "name": {
+        "title": "nombre del favicon",
+        "help": "usar apenas letras, números, '.', '-'y '_'.",
+        "placeholder": "deje en blanco para usar \"favicon\" como nombre"
+      },
+      "folder": {
+        "title": "carpeta del favicon",
+        "help": "usar apenas letras, números, ':', '.', y '/'",
+        "placeholder": "deje en blanco para mantener el favicon en la carpeta raíz"
+      },
+      "version": {
+        "title": "versión favicon",
+        "help": "usar apenas letras, números, '.', '-'y '_'.",
+        "placeholder": "deje en blanco se no lo quiere usar"
+      },
+      "advancedAccordionColapsed": "avanzado",
+      "advancedAccordionExpanded": "regular"
+    }
+  },
+  "download": {
+    "meta": "descargue el archivo zip con los faviconos, apple touch icons y las instrucciones del HTML header",
+    "thanks": "gracias por usar <span class=\"brand\">favicon<span class=\"orange\">it</span></span> para crear sus faviconos, apple touch icons y HTML header!",
+    "downloadReady": "sus faviconos están listos :)",
     "availability": "tus faviconos estarán disponibles para descarga por 1 hora por lo menos en este URL",
     "donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"J4GAUUUSTU924\" /><input type=\"image\" src=\"https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Botón Donar con PayPal\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/es_ES/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
     "download": "descargar mis faviconos",
-    "downloadNotFound": "lo siento… no encontramos este favicon en nuestros servidores",
-    "downloadReady": "sus faviconos están listos :)",
-    "editImageText": "editar imagen",
-    "faviconFile": "archivo favicon",
-    "faviconLocation": "carpeta del favicon",
-    "faviconLocationHelp": "usar apenas letras, números, ':', '.', y '/'",
-    "faviconLocationPlaceholder": "deje en blanco para mantener el favicon en la carpeta raíz",
-    "faviconName": "nombre del favicon",
-    "faviconNameHelp": "usar apenas letras, números, '.', '-'y '_'.",
-    "faviconNamePlaceholder": "deje en blanco para usar \"favicon\" como nombre",
-    "faviconVersion": "versión favicon",
-    "faviconVersionHelp": "usar apenas letras, números, '.', '-'y '_'.",
-    "faviconVersionPlaceholder": "deje en blanco se no lo quiere usar",
-    "fillTheForm": "complete el formulario y cree gratis su favicon",
-    "formFileAbortUpload": "abortar",
-    "formFileChoose": "seleccione el archivo",
-    "formFileDragNDrop": "<span>o arrastre y solte</span>",
-    "formFileHelp": "la imagen debe ser <strong> de 310x310px mínimo<strong> con <strong> un máximo de 1MB",
-    "formFileMultiDragError": "arrastre y solte un solo archivo",
     "goBackLink": "vuelva",
     "goBackText": "y suba una imagen para crear favicon, apple touch icons y el HTML header",
-    "helpUsTranslate": "ayúdanos a traducir :)",
-    "homeHighlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> crear <i>faviconos</i>, <i>apple touch icons</i> y el <i>HTML header</i> para todos los dispositivos y navegadores",
-    "homeSubHighlight": "es gratis! el creador de favicon más sencillo ya visto! lo único que tienes que hacer es subir una imagen!",
+    "shareTheLove": "fácil, no? comparta con tus amigos",
+    "notFound": {
+      "metaFileNotFound": "archivo no disponible, suba una imagen para crear faviconos, apple touch icons y el HTML header correcto",
+      "title": "lo siento… no encontramos este favicon en nuestros servidores"
+    }
+  },
+  "instructions": {
     "instructions": "copie los archivos en su sitio y ponga este código dentro del HTML <HEAD> tag:",
     "instructionsBlock": "faviconit.com faviconos",
     "instructionsTitle": "faviconit-instrucciones",
-    "instructionThanks": "gracias por usar faviconit!",
-    "metaDescription": "suba una imagen para crear faviconos, apple touch icons y el HTML header correcto para que funcione en todos los dispositivos y navegadores",
-    "metaDownload": "descargue el archivo zip con los faviconos, apple touch icons y las instrucciones del HTML header",
-    "metaFileNotFound": "archivo no disponible, suba una imagen para crear faviconos, apple touch icons y el HTML header correcto",
-    "ogDescription": "suba una imagen para crear faviconos, apple touch icons y el HTML header correcto para que funcione en todos los dispositivos y navegadores",
-    "ogTitle": "creador gratis de favicon & apple touch icons",
-    "pageNotFound": "ops… la página que está buscando no existe",
-    "pageTitle": "faviconit :: creador gratis de favicon & apple touch icons para todos los dispositivos y navegadores",
-    "shareTheLove": "fácil, no? comparta con tus amigos",
-    "socialImage": "creador gratis de favicon & apple touch icons\npara todos los dispositivos y navegadores",
-    "swapImageText": "cambiar imagen",
-    "thanks": "gracias por usar <span class=\"brand\">favicon<span class=\"orange\">it</span></span> para crear sus faviconos, apple touch icons y HTML header!",
-    "uploaderBlockMessage": "cargando archivo…",
-    "uploadError": "hubo un error al salvar la imagen. por favor, intente de nuevo.",
-    "validation": {
-        "image": "el campo {attribute} debe ser una imagen.",
-        "max_file": "el campo {attribute} debe ser menor que {max} kilobytes.",
-        "max_numeric": "el campo {attribute} debe ser menor que {max}.",
-        "max_required": "el campo {attribute} es requerido",
-        "max_string": "el campo {attribute} debe ser menor que {max} caracteres.",
-        "minimum_size_image": "el <strong>favicon</strong> tiene que ser con 310px mínimo en cada sentido. por favor, suba una imagen mayor.",
-        "regex": "el formato :atribute no es válido.",
-        "required": "el campo {attribute} es requerido.",
-        "squared_image": "el {attribute} tiene que ser <strong>square</strong> con 310px mínimo. suba su imagen y haga click en 'editar imagen' para cortarla."
-    }
+    "instructionThanks": "gracias por usar faviconit!"
+  },
+  "error404": {
+    "title": "ops… la página que está buscando no existe"
+  },
+  "validation": {
+    "image": "el campo {attribute} debe ser una imagen.",
+    "max_file": "el campo {attribute} debe ser menor que {max} kilobytes.",
+    "max_numeric": "el campo {attribute} debe ser menor que {max}.",
+    "max_required": "el campo {attribute} es requerido",
+    "max_string": "el campo {attribute} debe ser menor que {max} caracteres.",
+    "minimum_size_image": "el <strong>favicon</strong> tiene que ser con 310px mínimo en cada sentido. por favor, suba una imagen mayor.",
+    "regex": "el formato :atribute no es válido.",
+    "required": "el campo {attribute} es requerido.",
+    "squared_image": "el {attribute} tiene que ser <strong>square</strong> con 310px mínimo. suba su imagen y haga click en 'editar imagen' para cortarla."
+  }
 }

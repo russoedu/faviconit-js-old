@@ -1,57 +1,72 @@
 {
-  "advancedAccordionColapsed": "avancé",
-  "advancedAccordionExpanded": "régulier",
-  "attribute": {
-    "iconFile": "<strong>fichier du favicon</strong>",
-    "iconImage": "<strong>fichier du favicon</strong>",
-    "iconLocation": "<strong>dossier du favicon</strong>",
-    "iconName": "<strong>nom du favicon</strong>",
-    "iconVersion": "<strong>version du favicon</strong>"
+  "general": {
+    "ogTitle": "générateur gratuit de favicon et d'icon apple touch",
+    "ogDescription": "choisissez une image pour créer les favicons, les icônes apple touch et le header HTML correct pour qu'ils fonctionnent avec tous les périphériques et navigateurs",
+    "helpUsTranslate": "aidez-nous à traduire :)",
+    "pageTitle": "faviconit :: création de favicon et d'icones apple touch compatible tous périphériques et tous navigateurs"
   },
-  "availability": "vos favicons sont disponible au téléchargement pendant une heure à cette adresse",
-  "donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"B45DU6L8VR6CE\" /><input type=\"image\" src=\"https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Bouton Faites un don avec PayPal\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/fr_FR/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
-  "download": "télécharger mes favicon",
-  "downloadNotFound": "désolé… nous n'avons pas trouvé ces favicon sur nos serveurs",
-  "downloadReady": "vos favicon sont prêts :)",
-  "editImageText": "éditer l'image",
-  "faviconFile": "fichier du favicon",
-  "faviconLocation": "dossier du favicon",
-  "faviconLocationHelp": "les seuls caractères autorisés sont les lettres, les chiffres et les caractères ':', '.', '-', '_' and '/' allowed",
-  "faviconLocationPlaceholder": "laisser vide pour laisser le favicon à la racine",
-  "faviconName": "nom du favicon",
-  "faviconNameHelp": "les seuls caractères autorisés sont les lettres, les chiffres et les caractères ''.', '-' et '_'.",
-  "faviconNamePlaceholder": "laisser vide pour utiliser le nom \"favicon\"",
-  "faviconVersion": "version du favicon",
-  "faviconVersionHelp": "les seuls caractères autorisés sont les lettres, les chiffres et les caractères '.', '-' et '_'.",
-  "faviconVersionPlaceholder": "laisser vide si vous ne voulez pas l'utiliser",
-  "fillTheForm": "remplissez le formulaire et générez vos favicon gratuitement",
-  "formFileAbortUpload": "annuler",
-  "formFileChoose": "choisissez un fichier",
-  "formFileDragNDrop": "<span>ou déposez le ici</span>",
-  "formFileHelp": "l'image doit faire <strong>au minimum 310x310 px</strong> et <strong>peser au maximum 1 mégaoctet</strong>",
-  "formFileMultiDragError": "déposez un seul fichier",
-  "goBackLink": "retour",
-  "goBackText": "à la page de choix de l'image pour créer des favicon, icônes apple touch et headers HTML",
-  "helpUsTranslate": "aidez-nous à traduire :)",
-  "homeHighlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> génère les <i>favicon</i>, les <i>icônes pour apple touch</i> et les <i>headers HTML</i> pour tous les périphériques et navigateurs",
-  "homeSubHighlight": "c'est gratuit! vous ne trouverez pas de générateur de favicon plus simple. c'est aussi simple que de choisir une image!",
-  "instructions": "copiez les fichiers à la racine de votre site et ajoutez ce code à l'intérieur de la balise HTML <HEAD>:",
-  "instructionsBlock": "favicons générés par faviconit.com",
-  "instructionsTitle": "instructions-faviconit",
-  "instructionThanks": "merci d'avoir utilisé faviconit!",
-  "metaDescription": "choisissez une image pour créer les favicons, les icônes apple touch et le header HTML correct pour qu'ils fonctionnent avec tous les périphériques et navigateurs",
-  "metaDownload": "télécharger l'archive zip qui contient les favicons, les images pour apple touch et les headers HTML",
-  "metaFileNotFound": "le fichier n'est pas disponible. téléchargez une image pour créer les favicons, les images pour apple touch et les headers HTML",
-  "ogDescription": "choisissez une image pour créer les favicons, les icônes apple touch et le header HTML correct pour qu'ils fonctionnent avec tous les périphériques et navigateurs",
-  "ogTitle": "générateur gratuit de favicon et d'icon apple touch",
-  "pageNotFound": "ops… the page you are looking for could not be found",
-  "pageTitle": "faviconit :: création de favicon et d'icones apple touch compatible tous périphériques et tous navigateurs",
-  "shareTheLove": "Rien de plus simple, non? Partagez ce service avec vos amis",
-  "socialImage": "création de favicon et d'icones apple touch\ncompatible tous périphériques et tous navigateurs",
-  "swapImageText": "changer d'image",
-  "thanks": "merci d'avoir utilisé faviconit pour créer vos favicon, icônes apple touch et headers HTML!",
-  "uploaderBlockMessage": "transmission du fichier en cours…",
-  "uploadError": "désolé, une erreur est survenue :( n'hésitez pas à réessayer!",
+  "home": {
+    "meta": "choisissez une image pour créer les favicons, les icônes apple touch et le header HTML correct pour qu'ils fonctionnent avec tous les périphériques et navigateurs",
+    "socialImage": "création de favicon et d'icones apple touch\ncompatible tous périphériques et tous navigateurs",
+    "highlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> génère les <i>favicon</i>, les <i>icônes pour apple touch</i> et les <i>headers HTML</i> pour tous les périphériques et navigateurs",
+    "subHighlight": "c'est gratuit! vous ne trouverez pas de générateur de favicon plus simple. c'est aussi simple que de choisir une image!",
+    "form": {
+      "title": "remplissez le formulaire et générez vos favicon gratuitement",
+      "file": {
+        "title": "fichier du favicon",
+        "choose": "choisissez un fichier",
+        "dragNDrop": "<span>ou déposez le ici</span>",
+        "help": "l'image doit faire <strong>au minimum 310x310 px</strong> et <strong>peser au maximum 1 mégaoctet</strong>",
+        "editImage": "éditer l'image",
+        "swapImage": "changer d'image",
+        "abortUpload": "annuler",
+        "multiDragError": "déposez un seul fichier",
+        "uploaderBlockMessage": "transmission du fichier en cours…",
+        "uploadError": "désolé, une erreur est survenue :( n'hésitez pas à réessayer!"
+      },
+      "name": {
+        "title": "nom du favicon",
+        "help": "les seuls caractères autorisés sont les lettres, les chiffres et les caractères ''.', '-' et '_'.",
+        "placeholder": "laisser vide pour utiliser le nom \"favicon\""
+      },
+      "folder": {
+        "title": "dossier du favicon",
+        "help": "les seuls caractères autorisés sont les lettres, les chiffres et les caractères ':', '.', '-', '_' and '/' allowed",
+        "placeholder": "laisser vide pour laisser le favicon à la racine"
+      },
+      "version": {
+        "title": "version du favicon",
+        "help": "les seuls caractères autorisés sont les lettres, les chiffres et les caractères '.', '-' et '_'.",
+        "placeholder": "laisser vide si vous ne voulez pas l'utiliser"
+      },
+      "advancedAccordionColapsed": "avancé",
+      "advancedAccordionExpanded": "régulier"
+    }
+  },
+  "download": {
+    "meta": "télécharger l'archive zip qui contient les favicons, les images pour apple touch et les headers HTML",
+    "thanks": "merci d'avoir utilisé faviconit pour créer vos favicon, icônes apple touch et headers HTML!",
+    "downloadReady": "vos favicon sont prêts :)",
+    "availability": "vos favicons sont disponible au téléchargement pendant une heure à cette adresse",
+    "donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"B45DU6L8VR6CE\" /><input type=\"image\" src=\"https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Bouton Faites un don avec PayPal\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/fr_FR/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
+    "download": "télécharger mes favicon",
+    "goBackLink": "retour",
+    "goBackText": "à la page de choix de l'image pour créer des favicon, icônes apple touch et headers HTML",
+    "shareTheLove": "Rien de plus simple, non? Partagez ce service avec vos amis",
+    "notFound": {
+      "metaFileNotFound": "le fichier n'est pas disponible. téléchargez une image pour créer les favicons, les images pour apple touch et les headers HTML",
+      "title": "désolé… nous n'avons pas trouvé ces favicon sur nos serveurs"
+    }
+  },
+  "instructions": {
+    "instructions": "copiez les fichiers à la racine de votre site et ajoutez ce code à l'intérieur de la balise HTML <HEAD>:",
+    "instructionsBlock": "favicons générés par faviconit.com",
+    "instructionsTitle": "instructions-faviconit",
+    "instructionThanks": "merci d'avoir utilisé faviconit!"
+  },
+  "error404": {
+    "title": "ops… the page you are looking for could not be found"
+  },
   "validation": {
     "image": "le champ {attribute} doit être une image(jpeg, png, bmp, or gif).",
     "max_array": "le champ {attribute} ne peut avoir plus de {max} éléments.",

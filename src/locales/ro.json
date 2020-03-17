@@ -1,57 +1,72 @@
 {
-  "advancedAccordionColapsed": "avansat",
-  "advancedAccordionExpanded": "regular",
-  "attribute": {
-    "iconFile": "<strong>fișierul favicon</strong>",
-    "iconImage": "<strong>fișierul favicon</strong>",
-    "iconLocation": "<strong>dosarul favicon</strong>",
-    "iconName": "<strong>numele favicon</strong>",
-    "iconVersion": "<strong>versiunea favicon</strong>"
+  "general": {
+    "ogTitle": "favicon gratis & creator imagini apple touch",
+    "ogDescription": "încărcați o imagine ca sa creați favicons, imagini apple touche și codul HTML corect ca sa funcționeze cu toate navigatoarele internet",
+    "helpUsTranslate": "ajutatine sa traducem :)",
+    "pageTitle": "faviconit :: favicon gratis & creator de imagini apple touch pentru toate dispozitivele și browsere"
   },
-  "availability": "favicons va fi disponibil pentru descărcare pentru cel puțin o oră în această adresă URL",
-  "donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"CK2ZN94GZC4DG\" /><input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Donate with PayPal button\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_RO/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
-  "download": "descarca favicons",
-  "downloadNotFound": "scuze… nu am putut găsi această favicon în serverele noastre",
-  "downloadReady": "favicons este gata :)",
-  "editImageText": "modificați imaginea",
-  "faviconFile": "fișierul favicon",
-  "faviconLocation": "dosarul favicon",
-  "faviconLocationHelp": "numai litere, numere, ':', '.' și '/' sunt autorizate",
-  "faviconLocationPlaceholder": "lăsați liber pentru a păstra favicon în dosarul principal",
-  "faviconName": "numele favicon",
-  "faviconNameHelp": "numai litere, numere, '.', '-' și '_' sunt autorizate",
-  "faviconNamePlaceholder": "lăsați liber ca sa utilizați \"favicon\" ca nume",
-  "faviconVersion": "versiunea favicon",
-  "faviconVersionHelp": "numai litere, numere, '.', '-' și '_' sunt autorizate",
-  "faviconVersionPlaceholder": "lăsați liber dacă nu vreți sa îl utilizați",
-  "fillTheForm": "completați formularul pentru a crea un favicon gratuit",
-  "formFileAbortUpload": "abandonați",
-  "formFileChoose": "alegeți un fișier",
-  "formFileDragNDrop": "<span>sau, trageți & depozați aici</span>",
-  "formFileHelp": "imaginea trebuie sa fie <strong>minimum 310x310px</strong> cu <strong>maximum 1MB</strong>",
-  "formFileMultiDragError": "trageți & depozați-un singur fișier",
-  "goBackLink": "mergeți înapoi",
-  "goBackText": "și încărcați o imagine pentru a crea favicons, imagini apple touche si codul HTML",
-  "helpUsTranslate": "ajutatine sa traducem :)",
-  "homeHighlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> creaza <i>favicons</i>, <i>imagini apple touch</i> și <i>codul HTML</i> pentru toate dispozitivele și browsere.",
-  "homeSubHighlight": "este gratis! cel mai simplu creatorul favicon care îl veți vedea vreodată. tot ce trebuie să faceți este să încărcați o imagine!",
-  "instructions": "copiati fișierele loa rădăcina site-ului dvs. și adăugați acest cod în interiorul tagului HTML <HEAD>:",
-  "instructionsBlock": "faviconit.com favicons",
-  "instructionsTitle": "instrucții-faviconit",
-  "instructionThanks": "va mulțumim pentru ca utilizați faviconit!",
-  "metaDescription": "încărcați o imagine ca sa creați favicons, imagini apple touche și codul HTML corect ca sa funcționeze cu toate navigatoarele internet",
-  "metaDownload": "descărcați fișierul cu faviocons, imagini apple touche si codul HTML cu instrucțiunile",
-  "metaFileNotFound": "fișier nu este disponibil. încărcați o imagine ca sa creați un favicon, imagini apple touch si codul HTML",
-  "ogDescription": "încărcați o imagine ca sa creați favicons, imagini apple touche și codul HTML corect ca sa funcționeze cu toate navigatoarele internet",
-  "ogTitle": "favicon gratis & creator imagini apple touch",
-  "pageNotFound": "hopa ... pagina pe care o cautați nu a putut fi găsită",
-  "pageTitle": "faviconit :: favicon gratis & creator de imagini apple touch pentru toate dispozitivele și browsere",
-  "shareTheLove": "ușor, nu? împărtășiți dragostea cu prietenii tăi",
-  "socialImage": "favicon gratis & creator de imagini\napple touch pentru toate dispozitivele și browsere",
-  "swapImageText": "inversați imaginea",
-  "thanks": "vă mulțumim pentru ca ați utilizat <span class=\"brand\">favicon<span class=\"orange\">it</span></span> pentru a crea favicons, imagini apple touch și codul HTML!",
-  "uploaderBlockMessage": "fișierul se încarcă¬",
-  "uploadError": "eroare la încercarea de a salva imaginea. vă rugam, încercați din nou.",
+  "home": {
+    "meta": "încărcați o imagine ca sa creați favicons, imagini apple touche și codul HTML corect ca sa funcționeze cu toate navigatoarele internet",
+    "socialImage": "favicon gratis & creator de imagini\napple touch pentru toate dispozitivele și browsere",
+    "highlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> creaza <i>favicons</i>, <i>imagini apple touch</i> și <i>codul HTML</i> pentru toate dispozitivele și browsere.",
+    "subHighlight": "este gratis! cel mai simplu creatorul favicon care îl veți vedea vreodată. tot ce trebuie să faceți este să încărcați o imagine!",
+    "form": {
+      "title": "completați formularul pentru a crea un favicon gratuit",
+      "file": {
+        "title": "fișierul favicon",
+        "choose": "alegeți un fișier",
+        "dragNDrop": "<span>sau, trageți & depozați aici</span>",
+        "help": "imaginea trebuie sa fie <strong>minimum 310x310px</strong> cu <strong>maximum 1MB</strong>",
+        "editImage": "modificați imaginea",
+        "swapImage": "inversați imaginea",
+        "abortUpload": "abandonați",
+        "multiDragError": "trageți & depozați-un singur fișier",
+        "uploaderBlockMessage": "fișierul se încarcă¬",
+        "uploadError": "eroare la încercarea de a salva imaginea. vă rugam, încercați din nou."
+      },
+      "name": {
+        "title": "numele favicon",
+        "help": "numai litere, numere, '.', '-' și '_' sunt autorizate",
+        "placeholder": "lăsați liber ca sa utilizați \"favicon\" ca nume"
+      },
+      "folder": {
+        "title": "dosarul favicon",
+        "help": "numai litere, numere, ':', '.' și '/' sunt autorizate",
+        "placeholder": "lăsați liber pentru a păstra favicon în dosarul principal"
+      },
+      "version": {
+        "title": "versiunea favicon",
+        "help": "numai litere, numere, '.', '-' și '_' sunt autorizate",
+        "placeholder": "lăsați liber dacă nu vreți sa îl utilizați"
+      },
+      "advancedAccordionColapsed": "avansat",
+      "advancedAccordionExpanded": "regular"
+    }
+  },
+  "download": {
+    "meta": "descărcați fișierul cu faviocons, imagini apple touche si codul HTML cu instrucțiunile",
+    "thanks": "vă mulțumim pentru ca ați utilizat <span class=\"brand\">favicon<span class=\"orange\">it</span></span> pentru a crea favicons, imagini apple touch și codul HTML!",
+    "downloadReady": "favicons este gata :)",
+    "availability": "favicons va fi disponibil pentru descărcare pentru cel puțin o oră în această adresă URL",
+    "donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"CK2ZN94GZC4DG\" /><input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Donate with PayPal button\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_RO/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
+    "download": "descarca favicons",
+    "goBackLink": "mergeți înapoi",
+    "goBackText": "și încărcați o imagine pentru a crea favicons, imagini apple touche si codul HTML",
+    "shareTheLove": "ușor, nu? împărtășiți dragostea cu prietenii tăi",
+    "notFound": {
+      "metaFileNotFound": "fișier nu este disponibil. încărcați o imagine ca sa creați un favicon, imagini apple touch si codul HTML",
+      "title": "scuze… nu am putut găsi această favicon în serverele noastre"
+    }
+  },
+  "instructions": {
+    "instructions": "copiati fișierele loa rădăcina site-ului dvs. și adăugați acest cod în interiorul tagului HTML <HEAD>:",
+    "instructionsBlock": "faviconit.com favicons",
+    "instructionsTitle": "instrucții-faviconit",
+    "instructionThanks": "va mulțumim pentru ca utilizați faviconit!"
+  },
+  "error404": {
+    "title": "hopa ... pagina pe care o cautați nu a putut fi găsită"
+  },
   "validation": {
     "image": "câmpul {attribute} trebuie să fie o imagine.",
     "max_array": "câmpul {attribute} nu poate avea mai mult de {max} elemente.",

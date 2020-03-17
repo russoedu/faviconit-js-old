@@ -1,57 +1,72 @@
 {
-  "advancedAccordionColapsed": "advanced",
-  "advancedAccordionExpanded": "regular",
-  "attribute": {
-    "iconFile": "<strong>favicon file</strong>",
-    "iconImage": "<strong>favicon file</strong>",
-    "iconLocation": "<strong>favicon folder</strong>",
-    "iconName": "<strong>favicon name</strong>",
-    "iconVersion": "<strong>favicon version</strong>"
+  "general": {
+    "ogTitle": "free favicon & apple touch icon generator",
+    "ogDescription": "upload an image to generate favicons, apple touch icons and the correct HTML header to make it work with all devices and browsers",
+    "helpUsTranslate": "help us translating :)",
+    "pageTitle": "faviconit :: free favicon & apple touch icon generator for all devices and browsers"
   },
-  "availability": "your favicons will be available to download for at least 1 hour in this URL",
-  "donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"XTUHKF2L7L8CE\" /><input type=\"image\" src=\"https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Donate with PayPal button\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_GB/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
-  "download": "download my favicons",
-  "downloadNotFound": "sorry… we couldn't find this favicon in our servers",
-  "downloadReady": "your favicons are ready to go :)",
-  "editImageText": "edit image",
-  "faviconFile": "favicon file",
-  "faviconLocation": "favicon folder",
-  "faviconLocationHelp": "only letters, numbers, ':', '.', and '/' allowed",
-  "faviconLocationPlaceholder": "leave blank to use the root folder",
-  "faviconName": "favicon name",
-  "faviconNameHelp": "only letters, numbers, '.', '-' and '_' allowed",
-  "faviconNamePlaceholder": "leave blank to use \"favicon\" as name",
-  "faviconVersion": "favicon version",
-  "faviconVersionHelp": "only letters, numbers, '.', '-' and '_' allowed",
-  "faviconVersionPlaceholder": "leave blank if you don't want to use this",
-  "fillTheForm": "fill the form and create your favicon for free",
-  "formFileAbortUpload": "abort",
-  "formFileChoose": "choose file",
-  "formFileDragNDrop": "<span>or, drag &amp; drop it here</span>",
-  "formFileHelp": "image must be <strong>at least 310x310px</strong> with <strong>maximum 1MB</strong>",
-  "formFileMultiDragError": "drag &amp; drop a single file",
-  "goBackLink": "go back",
-  "goBackText": "and upload an image to to create favicons, apple touch icons and the HTML header",
-  "helpUsTranslate": "help us translating :)",
-  "homeHighlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> generates <i>favicons</i>, <i>apple touch icons</i> and the <i>HTML header</i> to all devices and browsers.",
-  "homeSubHighlight": "it's free! the easiest favicon creator you'll ever see. all you have to do is upload an image!",
-  "instructions": "copy the files to your site and add this code inside the HTML <HEAD> tag:",
-  "instructionsBlock": "faviconit.com favicons",
-  "instructionsTitle": "faviconit-instructions",
-  "instructionThanks": "thanks for using faviconit!",
-  "metaDescription": "upload an image to generate favicons, apple touch icons and the correct HTML header to make it work with all devices and browsers",
-  "metaDownload": "download the zip file with the favicons, apple touch images and the HTML header instructions",
-  "metaFileNotFound": "file is not available. upload an image do create the favicons, apple touch images and the HTML header",
-  "ogDescription": "upload an image to generate favicons, apple touch icons and the correct HTML header to make it work with all devices and browsers",
-  "ogTitle": "free favicon & apple touch icon generator",
-  "pageNotFound": "ops… the page you are looking for could not be found",
-  "pageTitle": "faviconit :: free favicon & apple touch icon generator for all devices and browsers",
-  "shareTheLove": "easy, right? share the love with your friends",
-  "socialImage": "free favicon & apple touch icon\ngenerator for all devices and browsers",
-  "swapImageText": "swap image",
-  "thanks": "thank you for using <span class=\"brand\">favicon<span class=\"orange\">it</span></span> to create your favicons, apple touch icons and the html header!",
-  "uploaderBlockMessage": "uploading file…",
-  "uploadError": "sorry, something was wrong :( please, try uploading your image again!",
+  "home": {
+    "meta": "upload an image to generate favicons, apple touch icons and the correct HTML header to make it work with all devices and browsers",
+    "socialImage": "free favicon & apple touch icon\ngenerator for all devices and browsers",
+    "highlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> generates <i>favicons</i>, <i>apple touch icons</i> and the <i>HTML header</i> to all devices and browsers.",
+    "subHighlight": "it's free! the easiest favicon creator you'll ever see. all you have to do is upload an image!",
+    "form": {
+      "title": "fill the form and create your favicon for free",
+      "file": {
+        "title": "favicon file",
+        "choose": "choose file",
+        "dragNDrop": "<span>or, drag &amp; drop it here</span>",
+        "help": "image must be <strong>at least 310x310px</strong> with <strong>maximum 1MB</strong>",
+        "editImage": "edit image",
+        "swapImage": "swap image",
+        "abortUpload": "abort",
+        "multiDragError": "drag &amp; drop a single file",
+        "uploaderBlockMessage": "uploading file…",
+        "uploadError": "sorry, something was wrong :( please, try uploading your image again!"
+      },
+      "name": {
+        "title": "favicon name",
+        "help": "only letters, numbers, '.', '-' and '_' allowed",
+        "placeholder": "leave blank to use \"favicon\" as name"
+      },
+      "folder": {
+        "title": "favicon folder",
+        "help": "only letters, numbers, ':', '.', and '/' allowed",
+        "placeholder": "leave blank to use the root folder"
+      },
+      "version": {
+        "title": "favicon version",
+        "help": "only letters, numbers, '.', '-' and '_' allowed",
+        "placeholder": "leave blank if you don't want to use this"
+      },
+      "advancedAccordionColapsed": "advanced",
+      "advancedAccordionExpanded": "regular"
+    }
+  },
+  "download": {
+    "meta": "download the zip file with the favicons, apple touch images and the HTML header instructions",
+    "thanks": "thank you for using <span class=\"brand\">favicon<span class=\"orange\">it</span></span> to create your favicons, apple touch icons and the html header!",
+    "downloadReady": "your favicons are ready to go :)",
+    "availability": "your favicons will be available to download for at least 1 hour in this URL",
+    "donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"XTUHKF2L7L8CE\" /><input type=\"image\" src=\"https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Donate with PayPal button\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_GB/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
+    "download": "download my favicons",
+    "goBackLink": "go back",
+    "goBackText": "and upload an image to to create favicons, apple touch icons and the HTML header",
+    "shareTheLove": "easy, right? share the love with your friends",
+    "notFound": {
+      "metaFileNotFound": "file is not available. upload an image do create the favicons, apple touch images and the HTML header",
+      "title": "sorry… we couldn't find this favicon in our servers"
+    }
+  },
+  "instructions": {
+    "instructions": "copy the files to your site and add this code inside the HTML <HEAD> tag:",
+    "instructionsBlock": "faviconit.com favicons",
+    "instructionsTitle": "faviconit-instructions",
+    "instructionThanks": "thanks for using faviconit!"
+  },
+  "error404": {
+    "title": "ops… the page you are looking for could not be found"
+  },
   "validation": {
     "image": "the {attribute} must be an image (jpeg, png, bmp, or gif).",
     "max_array": "the {attribute} may not have more than {max} items.",

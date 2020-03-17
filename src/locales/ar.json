@@ -1,57 +1,72 @@
 {
-  "advancedAccordionColapsed": "متقدم",
-  "advancedAccordionExpanded": "عادي",
-  "attributes": {
-    "iconFile": "<strong>ملف الايقونه</strong>",
-    "iconImage": "<strong>ملف الايقونه</strong>",
-    "iconLocation": "<strong>مجلد الايقونه</strong>",
-    "iconName": "<strong>اسم الايقونه</strong>",
-    "iconVersion": "<strong>اصدار الايقونه</strong>"
+  "general": {
+    "ogTitle": "ايكونات مجانيه و منشئ ايقونات apple touch",
+    "ogDescription": "قم بتحميل صورة لإنشاء الايقونات وايضا يمكنك انشاء ايقونات touch apple و HTML header الصحيح لجعلها تعمل مع جميع الأجهزة والمتصفحات",
+    "helpUsTranslate": "ساعدنا في الترجمه (:",
+    "pageTitle": "ايقونه مجانية وانشاء ايقونات apple touch لجميع الاجهزه والمتصفحات :: faviconit"
   },
-  "availability": "ايقوناتك سوف تكون متوفره للتحميل لمده ساعه كامله على هذا الرابط",
-  "donationButton": "<div class=\"paypal-donate\"><form action = \"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"VJZY9BF439DCC\" /><input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Donate with PayPal button\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_EG/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
-  "download": "تحميل الايقونات",
-  "downloadNotFound": "عذرا ... لم نستطيع اجاد الايقونه في السيرفر",
-  "downloadReady": "أيقونتك جاهزه (:",
-  "editImageText": "تعديل الصوره",
-  "faviconFile": "ملف الايقونه",
-  "faviconLocation": "مجلد الايقونه",
-  "faviconLocationHelp": "فقظ حروف , أرقام , ':' , '.' ,  '/' مسموح",
-  "faviconLocationPlaceholder": "اتركه خالي لكي تجعل الايقونه في المجلد الرئيسي",
-  "faviconName": "اسم الايقونه",
-  "faviconNameHelp": "فقظ حروف , أرقام , '.' , '-' ,  '_' مسموح",
-  "faviconNamePlaceholder": "ااترك الاسم خالي لاستخدام اسم \"الايقونه\"",
-  "faviconVersion": "اصدار الايقونه",
-  "faviconVersionHelp": "فقظ حروف , أرقام , '.' , '-' ,  '_' مسموح",
-  "faviconVersionPlaceholder": "اتركه خالي اذا كنت لا تريد استخدامه",
-  "fillTheForm": "اكمل النموذج و أنشاء أيقونتك مجانا",
-  "formFileAbortUpload": "الغاء",
-  "formFileChoose": "اختر ملف",
-  "formFileDragNDrop": "<span>أو ، اسحبها وإفلاتها هنا</span>",
-  "formFileHelp": "يجب ان تكون الصوره <strong>على الاقل 200x200px</strong> مع <strong>اعلى احد 1MB",
-  "formFileMultiDragError": "سحب  وافلات ملف واحد",
-  "goBackLink": "رجوع للخلف",
-  "goBackText": "وتحميل صورة لإنشاء أيقونات و touch apple و Html Header ",
-  "helpUsTranslate": "ساعدنا في الترجمه (:",
-  "homeHighlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> منشئ <i>ايقونه</i>, <i>apple touch ايقونات</i> و <i>HTML header</i> لجميع الاجهزه والمتصفحات.",
-  "homeSubHighlight": "انه مجانا! أسهل منشئ للأيقونات سوف تراه , كل ما عليك فعله رفع الصورة!",
-  "instructions": "انسخ الملفات إلى موقعك الرئيسي وضع الكود التالي في <head> تاق",
-  "instructionsBlock": "faviconit.com الايقونات",
-  "instructionsTitle": "faviconit - التعليمات",
-  "instructionThanks": "شكرا لاستخدامك faviconit (:",
-  "metaDescription": "قم بتحميل صورة لإنشاء الايقونات وايضا يمكنك انشاء ايقونات touch apple و HTML header الصحيح لجعلها تعمل مع جميع الأجهزة والمتصفحات",
-  "metaDownload": "تحميل الملف المضغوط (zip) يحتوي علي الايقونات و  صور apple touch و ارشادات Html header",
-  "metaFileNotFound": "لم يتم رفع الملف , ارفع صوره لكي تنشئ الايقونه , صور apple touch و html header",
-  "ogDescription": "قم بتحميل صورة لإنشاء الايقونات وايضا يمكنك انشاء ايقونات touch apple و HTML header الصحيح لجعلها تعمل مع جميع الأجهزة والمتصفحات",
-  "ogTitle": "ايكونات مجانيه و منشئ ايقونات apple touch",
-  "pageNotFound": "اوبس ... الصفحه التي تبحث عنها غير متوفره ",
-  "pageTitle": "ايقونه مجانية وانشاء ايقونات apple touch لجميع الاجهزه والمتصفحات :: faviconit",
-  "shareTheLove": "سهل ، صحيح ؟ انشر المحبه بين اصدقائك",
-  "socialImage": "ايقونه مجانية وانشاء ايقونات apple touch لجميع الاجهزه والمتصفحات",
-  "swapImageText": "تبديل الصوره",
-  "thanks": "شكرًا لك على استخدام faviconit لإنشاء الأيقونات و  touch apple و  Html header",
-  "uploaderBlockMessage": "رفع الملف ...",
-  "uploadError": "حدث خطأ عند محاوله حفظ الصورة, يرجى لحاوله مره اخرى",
+  "home": {
+    "meta": "قم بتحميل صورة لإنشاء الايقونات وايضا يمكنك انشاء ايقونات touch apple و HTML header الصحيح لجعلها تعمل مع جميع الأجهزة والمتصفحات",
+    "socialImage": "ايقونه مجانية وانشاء ايقونات apple touch لجميع الاجهزه والمتصفحات",
+    "highlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> منشئ <i>ايقونه</i>, <i>apple touch ايقونات</i> و <i>HTML header</i> لجميع الاجهزه والمتصفحات.",
+    "subHighlight": "انه مجانا! أسهل منشئ للأيقونات سوف تراه , كل ما عليك فعله رفع الصورة!",
+    "form": {
+      "title": "اكمل النموذج و أنشاء أيقونتك مجانا",
+      "file": {
+        "title": "ملف الايقونه",
+        "choose": "اختر ملف",
+        "dragNDrop": "<span>أو ، اسحبها وإفلاتها هنا</span>",
+        "help": "يجب ان تكون الصوره <strong>على الاقل 200x200px</strong> مع <strong>اعلى احد 1MB",
+        "editImage": "تعديل الصوره",
+        "swapImage": "تبديل الصوره",
+        "abortUpload": "الغاء",
+        "multiDragError": "سحب  وافلات ملف واحد",
+        "uploaderBlockMessage": "رفع الملف ...",
+        "uploadError": "حدث خطأ عند محاوله حفظ الصورة, يرجى لحاوله مره اخرى"
+      },
+      "name": {
+        "title": "اسم الايقونه",
+        "help": "فقظ حروف , أرقام , '.' , '-' ,  '_' مسموح",
+        "placeholder": "ااترك الاسم خالي لاستخدام اسم \"الايقونه\""
+      },
+      "folder": {
+        "title": "مجلد الايقونه",
+        "help": "فقظ حروف , أرقام , ':' , '.' ,  '/' مسموح",
+        "placeholder": "اتركه خالي لكي تجعل الايقونه في المجلد الرئيسي"
+      },
+      "version": {
+        "title": "اصدار الايقونه",
+        "help": "فقظ حروف , أرقام , '.' , '-' ,  '_' مسموح",
+        "placeholder": "اتركه خالي اذا كنت لا تريد استخدامه"
+      },
+      "advancedAccordionColapsed": "متقدم",
+      "advancedAccordionExpanded": "عادي"
+    }
+  },
+  "download": {
+    "meta": "تحميل الملف المضغوط (zip) يحتوي علي الايقونات و  صور apple touch و ارشادات Html header",
+    "thanks": "شكرًا لك على استخدام faviconit لإنشاء الأيقونات و  touch apple و  Html header",
+    "downloadReady": "أيقونتك جاهزه (:",
+    "availability": "ايقوناتك سوف تكون متوفره للتحميل لمده ساعه كامله على هذا الرابط",
+    "donationButton": "<div class=\"paypal-donate\"><form action = \"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"VJZY9BF439DCC\" /><input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Donate with PayPal button\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_EG/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
+    "download": "تحميل الايقونات",
+    "goBackLink": "رجوع للخلف",
+    "goBackText": "وتحميل صورة لإنشاء أيقونات و touch apple و Html Header ",
+    "shareTheLove": "سهل ، صحيح ؟ انشر المحبه بين اصدقائك",
+    "notFound": {
+      "metaFileNotFound": "لم يتم رفع الملف , ارفع صوره لكي تنشئ الايقونه , صور apple touch و html header",
+      "title": "عذرا ... لم نستطيع اجاد الايقونه في السيرفر"
+    }
+  },
+  "instructions": {
+    "instructions": "انسخ الملفات إلى موقعك الرئيسي وضع الكود التالي في <head> تاق",
+    "instructionsBlock": "faviconit.com الايقونات",
+    "instructionsTitle": "faviconit - التعليمات",
+    "instructionThanks": "شكرا لاستخدامك faviconit (:"
+  },
+  "error404": {
+    "title": "اوبس ... الصفحه التي تبحث عنها غير متوفره "
+  },
   "validation": {
     "image": "{attribute} يجب أن يكون صورة",
     "max_array": "{attribute} يجب ان لا يزيد علي {max} بنود.",

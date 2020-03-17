@@ -1,66 +1,81 @@
 {
-    "advancedAccordionColapsed": "Προχωρημένες",
-    "advancedAccordionExpanded": "Απλές",
-    "attribute": {
-        "iconFile": "<strong>favicon αρχείο</strong>",
-        "iconImage": "<strong>favicon αρχείο</strong>",
-        "iconLocation": "<strong>favicon φάκελος</strong>",
-        "iconName": "<strong>Όνομα favicon</strong>",
-        "iconVersion": "<strong>favicon έκδοση</strong>"
-    },
+  "general": {
+    "ogTitle": "Δωρεάν δημιουργία favicon & apple touch εικονιδίων",
+    "ogDescription": "Ανεβάστε μία εικόνα για να δημιουργήσετε favicons, apple touch εικονίδια και την σωστή HTML κεφαλίδα ώστε να δουλέψει  σε όλες τις συσκευές και όλους τους περιηγητές ",
+    "helpUsTranslate": "Βοηθήστε μας να μεταφράσουμε :)",
+    "pageTitle": "Faviconit :: Δωρεάν δημιουργία favicon & apple touch εικονιδίου για όλες τις συσκευές και περιηγητές"
+  },
+  "home": {
+    "meta": "Ανεβάστε μία εικόνα για να δημιουργήσετε favicons, apple touch εικονίδια και την σωστή HTML κεφαλίδα ώστε να δουλέψει  σε όλες τις συσκευές και όλους τους περιηγητές ",
+    "socialImage": "Δωρεάν δημιουργία favicon & apple touch εικονιδίου για όλες τις συσκευές και περιηγητές",
+    "highlight": "To <span class=\"brand\">favicon<span class=\"orange\">it</span></span> δημιουργεί <i>favicons</i>, <i>apple touch εικονίδια</i> και την <i>HTML κεφαλίδα</i> σε όλες τις συσκευές και όλους τους περιηγητές.",
+    "subHighlight": "Είναι δωρεάν! ο ευκολότερος δημιουργός favicon που έχετε δει. το μόνο που έχετε να κάνετε είναι να ανεβάσετε μία εικόνα!",
+    "form": {
+      "title": "Συμπληρώστε την φόρμα και δημιουργήστε to favicon σας δωρεάν",
+      "file": {
+        "title": "favicon αρχείο",
+        "choose": "Επιλέξτε ένα αρχείο",
+        "dragNDrop": "<span>Ή σύρετε τοποθετήστε το εδώ</span>",
+        "help": "Η εικόνα πρέπει να είναι <strong>τουλάχιστων 310x310px</strong> μέ <strong>ανώτατο όριο 1MB</strong></strong>",
+        "editImage": "Επεξεργαστείτε την εικόνα",
+        "swapImage": "Αλλάξτε την εικόνα ",
+        "abortUpload": "Διακοπή",
+        "multiDragError": "Σύρετε & τοποθετήστε ένα μεμονωμένο αρχείο",
+        "uploaderBlockMessage": "Ανέβασμα αρχείου…",
+        "uploadError": "Λυπούμαστε κάτι πήγε στραβά :( παρακαλώ, δοκιμάστε να ανεβάσετε την εικόνα σας ξανά!"
+      },
+      "name": {
+        "title": "Όνομα favicon",
+        "help": "Μόνο γράμματα, αριθμοί, '.', '-' και '_' επιτρέπονται",
+        "placeholder": "Αφήστε το πεδίο κενό για να χρησιμοποιηθεί το \"favicon\" ώς όνομα "
+      },
+      "folder": {
+        "title": "favicon φάκελος",
+        "help": "Μόνο γράμματα, αριθμοί, ':', '.', και '/' επιτρέπονται",
+        "placeholder": "Αφήστε το πεδίο κενό εάν επιθυμείτε να κρατήσετε το favicon σας στον ρυζικό φάκελο"
+      },
+      "version": {
+        "title": "favicon έκδοση",
+        "help": "Μόνο γράμματα, αριθμοί, '.', '-' και '_' επιτρέπονται",
+        "placeholder": "Αφήστε το πεδίο κενό εάν δεν επιθυμείτε να να το χρησιμοποιήσετε αυτό"
+      },
+      "advancedAccordionColapsed": "Προχωρημένες",
+      "advancedAccordionExpanded": "Απλές"
+    }
+  },
+  "download": {
+    "meta": "Κατεβάστε το συμπιεσμένο αρχείο με τα favicon, apple touch εικονίδια και  τις οδηγιες την HTML κεφαλίδα",
+    "thanks": "Σας ευχαριστούμε που χρησιμοποιείτε το faviconit για την δημιουργία των favicon σας, apple touch εικονιδίων σας και τών HTML κεφαλίδων σας!",
+    "downloadReady": "Τα favicon σας είναι έτοιμα :)",
     "availability": "Τα favicon σας θα είναι διαθέσιμα  για κατέβασμα για τουλάχιστον 1 ώρα σε αυτό URL",
     "donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"HWDUNWGR6V6VE\" /><input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Donate with PayPal button\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_GR/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
     "download": "Κατέβασμα των favicon μου",
-    "downloadNotFound": "Λυπούμαστε… δεν μπορέσαμε να βρούμε αυτό το favicon στον server μας ",
-    "downloadReady": "Τα favicon σας είναι έτοιμα :)",
-    "editImageText": "Επεξεργαστείτε την εικόνα",
-    "faviconFile": "favicon αρχείο",
-    "faviconLocation": "favicon φάκελος",
-    "faviconLocationHelp": "Μόνο γράμματα, αριθμοί, ':', '.', και '/' επιτρέπονται",
-    "faviconLocationPlaceholder": "Αφήστε το πεδίο κενό εάν επιθυμείτε να κρατήσετε το favicon σας στον ρυζικό φάκελο",
-    "faviconName": "Όνομα favicon",
-    "faviconNameHelp": "Μόνο γράμματα, αριθμοί, '.', '-' και '_' επιτρέπονται",
-    "faviconNamePlaceholder": "Αφήστε το πεδίο κενό για να χρησιμοποιηθεί το \"favicon\" ώς όνομα ",
-    "faviconVersion": "favicon έκδοση",
-    "faviconVersionHelp": "Μόνο γράμματα, αριθμοί, '.', '-' και '_' επιτρέπονται",
-    "faviconVersionPlaceholder": "Αφήστε το πεδίο κενό εάν δεν επιθυμείτε να να το χρησιμοποιήσετε αυτό",
-    "fillTheForm": "Συμπληρώστε την φόρμα και δημιουργήστε to favicon σας δωρεάν",
-    "formFileAbortUpload": "Διακοπή",
-    "formFileChoose": "Επιλέξτε ένα αρχείο",
-    "formFileDragNDrop": "<span>Ή σύρετε τοποθετήστε το εδώ</span>",
-    "formFileHelp": "Η εικόνα πρέπει να είναι <strong>τουλάχιστων 310x310px</strong> μέ <strong>ανώτατο όριο 1MB</strong></strong>",
-    "formFileMultiDragError": "Σύρετε & τοποθετήστε ένα μεμονωμένο αρχείο",
     "goBackLink": "Πηγαίντε πίσω",
     "goBackText": "και ανεβάστε μία εικόνα για να δημιουργήσετε  favicons, apple touch εικονίδια και την HTML κεφαλίδα",
-    "helpUsTranslate": "Βοηθήστε μας να μεταφράσουμε :)",
-    "homeHighlight": "To <span class=\"brand\">favicon<span class=\"orange\">it</span></span> δημιουργεί <i>favicons</i>, <i>apple touch εικονίδια</i> και την <i>HTML κεφαλίδα</i> σε όλες τις συσκευές και όλους τους περιηγητές.",
-    "homeSubHighlight": "Είναι δωρεάν! ο ευκολότερος δημιουργός favicon που έχετε δει. το μόνο που έχετε να κάνετε είναι να ανεβάσετε μία εικόνα!",
+    "shareTheLove": "Εύκολο σωστα; δημοσιεύστε την αγάπη σας για εμάς με τους φίλους σας",
+    "notFound": {
+      "metaFileNotFound": "Το αρχείο δεν είναι διαθέσιμο. ανεβάστε μία εικόνα για να δημιουργήσετε favicons, apple touch εικονίδια και την HTML κεφαλίδα",
+      "title": "Λυπούμαστε… δεν μπορέσαμε να βρούμε αυτό το favicon στον server μας "
+    }
+  },
+  "instructions": {
     "instructions": "Αντιγράψτε αυτά αρχεία στην ρυζικη ιστοσελίδα σας και προσθέστε αυτόν τον κώδικα μέσα στην HTML <HEAD> ετικέτα:",
     "instructionsBlock": "faviconit.com favicons",
     "instructionsTitle": "faviconit-Οδηγίες",
-    "instructionThanks": "Ευχαριστούμε που χρησιμοποιήσατε το faviconit!",
-    "metaDescription": "Ανεβάστε μία εικόνα για να δημιουργήσετε favicons, apple touch εικονίδια και την σωστή HTML κεφαλίδα ώστε να δουλέψει  σε όλες τις συσκευές και όλους τους περιηγητές ",
-    "metaDownload": "Κατεβάστε το συμπιεσμένο αρχείο με τα favicon, apple touch εικονίδια και  τις οδηγιες την HTML κεφαλίδα",
-    "metaFileNotFound": "Το αρχείο δεν είναι διαθέσιμο. ανεβάστε μία εικόνα για να δημιουργήσετε favicons, apple touch εικονίδια και την HTML κεφαλίδα",
-    "ogDescription": "Ανεβάστε μία εικόνα για να δημιουργήσετε favicons, apple touch εικονίδια και την σωστή HTML κεφαλίδα ώστε να δουλέψει  σε όλες τις συσκευές και όλους τους περιηγητές ",
-    "ogTitle": "Δωρεάν δημιουργία favicon & apple touch εικονιδίων",
-    "pageNotFound": "ουπς… η σελίδα που ψάχνετε  δεν βρέθηκε",
-    "pageTitle": "Faviconit :: Δωρεάν δημιουργία favicon & apple touch εικονιδίου για όλες τις συσκευές και περιηγητές",
-    "shareTheLove": "Εύκολο σωστα; δημοσιεύστε την αγάπη σας για εμάς με τους φίλους σας",
-    "socialImage": "Δωρεάν δημιουργία favicon & apple touch εικονιδίου για όλες τις συσκευές και περιηγητές",
-    "swapImageText": "Αλλάξτε την εικόνα ",
-    "thanks": "Σας ευχαριστούμε που χρησιμοποιείτε το faviconit για την δημιουργία των favicon σας, apple touch εικονιδίων σας και τών HTML κεφαλίδων σας!",
-    "uploaderBlockMessage": "Ανέβασμα αρχείου…",
-    "uploadError": "Λυπούμαστε κάτι πήγε στραβά :( παρακαλώ, δοκιμάστε να ανεβάσετε την εικόνα σας ξανά!",
-    "validation": {
-        "image": "Το πεδίο {attribute} πρέπει να είναι εικόνα.",
-        "max_array": "Το πεδίο {attribute} δεν μπορεί να έχει περισσότερα από {max} αντικείμενα.",
-        "max_file": "Το πεδίο {attribute} δεν μπορεί να είναι μεγαλύτερό {max} kilobytes.",
-        "max_numeric": "Το πεδίο {attribute} δεν μπορεί να είναι μεγαλύτερο από {max}.",
-        "max_string": "Το πεδίο {attribute} δεν μπορεί να είναι μεγαλύτερό {max} χαρακτήρες.",
-        "minimum_size_image": "Το <strong>favicon αρχείο</strong> πρέπει να έχει τουλάχιστον 200px σε κάθε διάσταση. παρακαλώ, ανεβάστε μία μεγαλύτερη εικόνα.",
-        "regex": "Η μορφή του {attribute} δεν είναι αποδεκτή.",
-        "required": "Το πεδίο {attribute} είναι απαραίτητο.",
-        "squared_image": "Τό {attribute} πρέπει να είναι <strong>τετράγωνο</strong> με τουλάχιστον 310px. Ανεβάστε την εικόνα σας και πατήστε στο 'επεξεργασία εικόνας' για να την περικόψετε. "
-    }
+    "instructionThanks": "Ευχαριστούμε που χρησιμοποιήσατε το faviconit!"
+  },
+  "error404": {
+    "title": "ουπς… η σελίδα που ψάχνετε  δεν βρέθηκε"
+  },
+  "validation": {
+    "image": "Το πεδίο {attribute} πρέπει να είναι εικόνα.",
+    "max_array": "Το πεδίο {attribute} δεν μπορεί να έχει περισσότερα από {max} αντικείμενα.",
+    "max_file": "Το πεδίο {attribute} δεν μπορεί να είναι μεγαλύτερό {max} kilobytes.",
+    "max_numeric": "Το πεδίο {attribute} δεν μπορεί να είναι μεγαλύτερο από {max}.",
+    "max_string": "Το πεδίο {attribute} δεν μπορεί να είναι μεγαλύτερό {max} χαρακτήρες.",
+    "minimum_size_image": "Το <strong>favicon αρχείο</strong> πρέπει να έχει τουλάχιστον 200px σε κάθε διάσταση. παρακαλώ, ανεβάστε μία μεγαλύτερη εικόνα.",
+    "regex": "Η μορφή του {attribute} δεν είναι αποδεκτή.",
+    "required": "Το πεδίο {attribute} είναι απαραίτητο.",
+    "squared_image": "Τό {attribute} πρέπει να είναι <strong>τετράγωνο</strong> με τουλάχιστον 310px. Ανεβάστε την εικόνα σας και πατήστε στο 'επεξεργασία εικόνας' για να την περικόψετε. "
+  }
 }

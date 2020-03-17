@@ -1,57 +1,72 @@
 {
-  "advancedAccordionColapsed": "дополнительно",
-  "advancedAccordionExpanded": "стандарт",
-  "attribute": {
-    "iconFile": "<strong>файл с иконкой</strong>",
-    "iconImage": "<strong>файл с иконкой</strong>",
-    "iconLocation": "<strong>Папка хранения иконки</strong>",
-    "iconName": "<strong>Задать имя иконки</strong>",
-    "iconVersion": "<strong>Версия иконки</strong>"
+  "general": {
+    "ogTitle": "Бесплатное создание иконки для сайта и иконки Apple Touch.",
+    "ogDescription": "Загрузите изображение, чтобы создать иконку для сайта, значки Apple Touch и правильный HTML-код для вставки в «шапку» вашего сайта, чтобы иконки работали на всех устройствах и браузерах.",
+    "helpUsTranslate": "Помогите перевести. :)",
+    "pageTitle": "faviconit :: Бесплатное создание иконок для сайта и значков Apple Touch с совместимостью со всеми устройствами и браузерами."
   },
-  "availability": "Ссылка на скачивание ваших иконок будет активна еще около часа.",
-  "donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"BP9NN6VYN8AT2\" /><input type=\"image\" src=\"https://www.paypalobjects.com/ru_RU/RU/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Кнопка «Пожертвовать через PayPal»\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/ru_RU/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
-  "download": "Скачать мои иконки",
-  "downloadNotFound": "Ошибка... Мы не нашли этот файл на наших серверах.",
-  "downloadReady": "Ваши иконки готовы к использованию :)",
-  "editImageText": "Редактировать изображение",
-  "faviconFile": "файл с иконкой",
-  "faviconLocation": "Папка хранения иконки",
-  "faviconLocationHelp": "Вводите только буквы, цифры, и знаки ':', '.', и '/'",
-  "faviconLocationPlaceholder": "Не заполняйте поле, если значок будет храниться в корневой папке.",
-  "faviconName": "Задать имя иконки",
-  "faviconNameHelp": "Вводите только буквы, цифры, и знаки '.', '-' и '_'.",
-  "faviconNamePlaceholder": "При пустом поле имя файла будет \"favicon\"",
-  "faviconVersion": "Версия иконки",
-  "faviconVersionHelp": "Вводите только буквы, цифры, и знаки '.', '-' и '_'",
-  "faviconVersionPlaceholder": "Это поле заполнять необязательно",
-  "fillTheForm": "Заполните форму и создайте иконку для сайта бесплатно",
-  "formFileAbortUpload": "Отмена",
-  "formFileChoose": "выберите файл",
-  "formFileDragNDrop": "<span>или перетащите его сюда с помощью мыши</span>",
-  "formFileHelp": "Размер загруженного изображения должен быть <strong>не менее 310 на 310 пикселей</strong> и весить <strong>не более 1 мегабайта</strong>",
-  "formFileMultiDragError": "перетащите один файл",
-  "goBackLink": "Вернуться назад",
-  "goBackText": "и загрузить рисунок для создания иконки, значка Apple Touch и кода HTML",
-  "helpUsTranslate": "Помогите перевести. :)",
-  "homeHighlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> создает <i>иконки для сайта</i>, <i>иконки Apple Touch</i> и <i>код HTML header</i> для всех типов устройств и браузеров.",
-  "homeSubHighlight": "И это бесплатно! Вы не найдете более удобного генератора значков favicon, чем этот. Для этого просто загрузите изображение!",
-  "instructions": "Скопируйте файлы в корневую папку вашего сайта и вставьте этот код в «шапку» HTML вашего сайта (метка <HEAD>):",
-  "instructionsBlock": "Иконки «favicon» для сайтов от faviconit.com",
-  "instructionsTitle": "faviconit",
-  "instructionThanks": "Спасибо за то, что используете «faviconit»!",
-  "metaDescription": "Загрузите изображение, чтобы создать иконку для сайта, значки Apple Touch и правильный HTML-код для вставки в «шапку» вашего сайта, чтобы иконки работали на всех устройствах и браузерах.",
-  "metaDownload": "Скачайте файл .zip с иконками, значками Apple Touch и инструкцией по вставке HTML-кода в «шапку» сайта.",
-  "metaFileNotFound": "Файл недоступен: загрузите изображение, чтобы создать иконку, значки Apple Touch и кода HTML.",
-  "ogDescription": "Загрузите изображение, чтобы создать иконку для сайта, значки Apple Touch и правильный HTML-код для вставки в «шапку» вашего сайта, чтобы иконки работали на всех устройствах и браузерах.",
-  "ogTitle": "Бесплатное создание иконки для сайта и иконки Apple Touch.",
-  "pageNotFound": "Упс... Мы не нашли страницу, которую вы искали.",
-  "pageTitle": "faviconit :: Бесплатное создание иконок для сайта и значков Apple Touch с совместимостью со всеми устройствами и браузерами.",
-  "shareTheLove": "Легко, не так ли? Поделитесь впечатлением с друзьями",
-  "socialImage": "Бесплатное создание иконок для сайта и значков \nApple Touch с совместимостью со всеми устройствами и браузерами.",
-  "swapImageText": "Поменять изображение",
-  "thanks": "Благодарим вас за использование «<span class=\"brand\">favicon<span class=\"orange\">it</span></span>» для создания иконок для сайтов, значков Apple Touch и создания «шапки» HTML!",
-  "uploaderBlockMessage": "Файл загружается…",
-  "uploadError": "Произошла ошибка во время сохранения. Пожалуйста, повторите попытку.",
+  "home": {
+    "meta": "Загрузите изображение, чтобы создать иконку для сайта, значки Apple Touch и правильный HTML-код для вставки в «шапку» вашего сайта, чтобы иконки работали на всех устройствах и браузерах.",
+    "socialImage": "Бесплатное создание иконок для сайта и значков \nApple Touch с совместимостью со всеми устройствами и браузерами.",
+    "highlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> создает <i>иконки для сайта</i>, <i>иконки Apple Touch</i> и <i>код HTML header</i> для всех типов устройств и браузеров.",
+    "subHighlight": "И это бесплатно! Вы не найдете более удобного генератора значков favicon, чем этот. Для этого просто загрузите изображение!",
+    "form": {
+      "title": "Заполните форму и создайте иконку для сайта бесплатно",
+      "file": {
+        "title": "файл с иконкой",
+        "choose": "выберите файл",
+        "dragNDrop": "<span>или перетащите его сюда с помощью мыши</span>",
+        "help": "Размер загруженного изображения должен быть <strong>не менее 310 на 310 пикселей</strong> и весить <strong>не более 1 мегабайта</strong>",
+        "editImage": "Редактировать изображение",
+        "swapImage": "Поменять изображение",
+        "abortUpload": "Отмена",
+        "multiDragError": "перетащите один файл",
+        "uploaderBlockMessage": "Файл загружается…",
+        "uploadError": "Произошла ошибка во время сохранения. Пожалуйста, повторите попытку."
+      },
+      "name": {
+        "title": "Задать имя иконки",
+        "help": "Вводите только буквы, цифры, и знаки '.', '-' и '_'.",
+        "placeholder": "При пустом поле имя файла будет \"favicon\""
+      },
+      "folder": {
+        "title": "Папка хранения иконки",
+        "help": "Вводите только буквы, цифры, и знаки ':', '.', и '/'",
+        "placeholder": "Не заполняйте поле, если значок будет храниться в корневой папке."
+      },
+      "version": {
+        "title": "Версия иконки",
+        "help": "Вводите только буквы, цифры, и знаки '.', '-' и '_'",
+        "placeholder": "Это поле заполнять необязательно"
+      },
+      "advancedAccordionColapsed": "дополнительно",
+      "advancedAccordionExpanded": "стандарт"
+    }
+  },
+  "download": {
+    "meta": "Скачайте файл .zip с иконками, значками Apple Touch и инструкцией по вставке HTML-кода в «шапку» сайта.",
+    "thanks": "Благодарим вас за использование «<span class=\"brand\">favicon<span class=\"orange\">it</span></span>» для создания иконок для сайтов, значков Apple Touch и создания «шапки» HTML!",
+    "downloadReady": "Ваши иконки готовы к использованию :)",
+    "availability": "Ссылка на скачивание ваших иконок будет активна еще около часа.",
+    "donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"BP9NN6VYN8AT2\" /><input type=\"image\" src=\"https://www.paypalobjects.com/ru_RU/RU/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Кнопка «Пожертвовать через PayPal»\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/ru_RU/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
+    "download": "Скачать мои иконки",
+    "goBackLink": "Вернуться назад",
+    "goBackText": "и загрузить рисунок для создания иконки, значка Apple Touch и кода HTML",
+    "shareTheLove": "Легко, не так ли? Поделитесь впечатлением с друзьями",
+    "notFound": {
+      "metaFileNotFound": "Файл недоступен: загрузите изображение, чтобы создать иконку, значки Apple Touch и кода HTML.",
+      "title": "Ошибка... Мы не нашли этот файл на наших серверах."
+    }
+  },
+  "instructions": {
+    "instructions": "Скопируйте файлы в корневую папку вашего сайта и вставьте этот код в «шапку» HTML вашего сайта (метка <HEAD>):",
+    "instructionsBlock": "Иконки «favicon» для сайтов от faviconit.com",
+    "instructionsTitle": "faviconit",
+    "instructionThanks": "Спасибо за то, что используете «faviconit»!"
+  },
+  "error404": {
+    "title": "Упс... Мы не нашли страницу, которую вы искали."
+  },
   "validation": {
     "image": "Поле {attribute} должно быть изображением(jpeg, png, bmp, or gif).",
     "max_array": "Поле {attribute} должно содержать не более {max} элементов.",

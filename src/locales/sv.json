@@ -1,57 +1,72 @@
 {
-  "advancedAccordionColapsed": "avancerat",
-  "advancedAccordionExpanded": "vanligt",
-  "attribute": {
-    "iconFile": "<strong>favicon-fil</strong>",
-    "iconImage": "<strong>favicon-fil</strong>",
-    "iconLocation": "<strong>favicon-mapp (katalog)</strong>",
-    "iconName": "<strong>favicon-namn</strong>",
-    "iconVersion": "<strong>favicon-version</strong>"
+  "general": {
+    "ogTitle": "gratis favicon- och apple touch ikon-skapare",
+    "ogDescription": "ladda upp en bild för att skapa ikoner (favicons, apple touch icons) och den HTML-kod som behövs för att de skall fungera med alla apparater och webbläsare",
+    "helpUsTranslate": "hjälp oss att översätta",
+    "pageTitle": "faviconit :: gratis favicon- och apple touch ikon-skapare för alla apparater och webbläsare"
   },
-  "availability": "dina faviconer kommer att finnas tillgängliga för nedladdning i minst 1 timme på denna URL",
-  "donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"7SV5QBFR5JSRC\" /><input type=\"image\" src=\"https://www.paypalobjects.com/sv_SE/SE/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Donera med PayPal-knappen\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/sv_SE/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
-  "download": "ladda ner mina favicons",
-  "downloadNotFound": "tyvärr… vi kunde inte hitta denna favicon på våra servrar",
-  "downloadReady": "dina favicon-er är klara för avhämtning :)",
-  "editImageText": "redigera bild",
-  "faviconFile": "favicon-fil",
-  "faviconLocation": "favicon-mapp (katalog)",
-  "faviconLocationHelp": "bara bokstäver, siffror, ':', '.' och '/'  är tillåtna",
-  "faviconLocationPlaceholder": "lämnas tom för att behålla favicon-en i rot-mappen (-katalogen)",
-  "faviconName": "favicon-namn",
-  "faviconNameHelp": "bara bokstäver, siffror, '.', '-' och '_'  är tillåtna",
-  "faviconNamePlaceholder": "lämna tomt för att använda namnet \"favicon\"",
-  "faviconVersion": "favicon-version",
-  "faviconVersionHelp": "bara bokstäver, siffror, '.', '-' och '_'  är tillåtna",
-  "faviconVersionPlaceholder": "lämnas tomt om du inte önskar använda detta",
-  "fillTheForm": "fyll i formuläret och skapa din favicon gratis",
-  "formFileAbortUpload": "avbryt",
-  "formFileChoose": "välj fil",
-  "formFileDragNDrop": "<span>eller, släpa-och-släpp här</span>",
-  "formFileHelp": "bilden måste vara <strong>åtminstone 310x310px</strong> och på <strong>max 1MB</strong>",
-  "formFileMultiDragError": "släpa-och-släpp en (1) fil",
-  "goBackLink": "gå tillbaka",
-  "goBackText": "gå tillbaka och ladda upp en bild för att skapa favicon-er, apple touch-ikoner och HTML-koden",
-  "helpUsTranslate": "hjälp oss att översätta",
-  "homeHighlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span>faviconit skapar <i>favicon-er</i>, <i>apple touch-ikoner</i> och <i>HTML-koden</i> för alla apparater och webbläsare",
-  "homeSubHighlight": "det är gratis! den enklast möjliga favicon-skaparen. du behöver bara ladda upp en bild",
-  "instructions": "kopiera filerna till din sajt-rot och lägg till denna kod inom HTML <HEAD>-taggen:",
-  "instructionsBlock": "faviconit.com favicon-er",
-  "instructionsTitle": "faviconit-instruktioner",
-  "instructionThanks": "Tack för att du använer faviconit!",
-  "metaDescription": "ladda upp en bild för att skapa ikoner (favicons, apple touch icons) och den HTML-kod som behövs för att de skall fungera med alla apparater och webbläsare",
-  "metaDownload": "ladda ner en zip-fil med favicon-er, apple touch-bilder och HTML-instruktioner",
-  "metaFileNotFound": "det saknas en fil. ladda upp en bild för att skapa faviconer, apple touch-bilder och HTML-kod",
-  "ogDescription": "ladda upp en bild för att skapa ikoner (favicons, apple touch icons) och den HTML-kod som behövs för att de skall fungera med alla apparater och webbläsare",
-  "ogTitle": "gratis favicon- och apple touch ikon-skapare",
-  "pageNotFound": "hoppsan… sidan som du sökte kunde inte hittas",
-  "pageTitle": "faviconit :: gratis favicon- och apple touch ikon-skapare för alla apparater och webbläsare",
-  "shareTheLove": "enkelt, eller hur? dela din uppskattning med dina vänner",
-  "socialImage": "gratis favicon- och apple touch\nikon-skapare för alla apparater och webbläsare",
-  "swapImageText": "byt bild",
-  "thanks": "Tack för att du använder faviconit för att skapa dina favicon-er, apple touch-ikoner och HTML-koden!",
-  "uploaderBlockMessage": "filen laddas upp…",
-  "uploadError": "försöket att spara bilden misslyckades. var snäll försök igen.",
+  "home": {
+    "meta": "ladda upp en bild för att skapa ikoner (favicons, apple touch icons) och den HTML-kod som behövs för att de skall fungera med alla apparater och webbläsare",
+    "socialImage": "gratis favicon- och apple touch\nikon-skapare för alla apparater och webbläsare",
+    "highlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span>faviconit skapar <i>favicon-er</i>, <i>apple touch-ikoner</i> och <i>HTML-koden</i> för alla apparater och webbläsare",
+    "subHighlight": "det är gratis! den enklast möjliga favicon-skaparen. du behöver bara ladda upp en bild",
+    "form": {
+      "title": "fyll i formuläret och skapa din favicon gratis",
+      "file": {
+        "title": "favicon-fil",
+        "choose": "välj fil",
+        "dragNDrop": "<span>eller, släpa-och-släpp här</span>",
+        "help": "bilden måste vara <strong>åtminstone 310x310px</strong> och på <strong>max 1MB</strong>",
+        "editImage": "redigera bild",
+        "swapImage": "byt bild",
+        "abortUpload": "avbryt",
+        "multiDragError": "släpa-och-släpp en (1) fil",
+        "uploaderBlockMessage": "filen laddas upp…",
+        "uploadError": "försöket att spara bilden misslyckades. var snäll försök igen."
+      },
+      "name": {
+        "title": "favicon-namn",
+        "help": "bara bokstäver, siffror, '.', '-' och '_'  är tillåtna",
+        "placeholder": "lämna tomt för att använda namnet \"favicon\""
+      },
+      "folder": {
+        "title": "favicon-mapp (katalog)",
+        "help": "bara bokstäver, siffror, ':', '.' och '/'  är tillåtna",
+        "placeholder": "lämnas tom för att behålla favicon-en i rot-mappen (-katalogen)"
+      },
+      "version": {
+        "title": "favicon-version",
+        "help": "bara bokstäver, siffror, '.', '-' och '_'  är tillåtna",
+        "placeholder": "lämnas tomt om du inte önskar använda detta"
+      },
+      "advancedAccordionColapsed": "avancerat",
+      "advancedAccordionExpanded": "vanligt"
+    }
+  },
+  "download": {
+    "meta": "ladda ner en zip-fil med favicon-er, apple touch-bilder och HTML-instruktioner",
+    "thanks": "Tack för att du använder faviconit för att skapa dina favicon-er, apple touch-ikoner och HTML-koden!",
+    "downloadReady": "dina favicon-er är klara för avhämtning :)",
+    "availability": "dina faviconer kommer att finnas tillgängliga för nedladdning i minst 1 timme på denna URL",
+    "donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"7SV5QBFR5JSRC\" /><input type=\"image\" src=\"https://www.paypalobjects.com/sv_SE/SE/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Donera med PayPal-knappen\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/sv_SE/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
+    "download": "ladda ner mina favicons",
+    "goBackLink": "gå tillbaka",
+    "goBackText": "gå tillbaka och ladda upp en bild för att skapa favicon-er, apple touch-ikoner och HTML-koden",
+    "shareTheLove": "enkelt, eller hur? dela din uppskattning med dina vänner",
+    "notFound": {
+      "metaFileNotFound": "det saknas en fil. ladda upp en bild för att skapa faviconer, apple touch-bilder och HTML-kod",
+      "title": "tyvärr… vi kunde inte hitta denna favicon på våra servrar"
+    }
+  },
+  "instructions": {
+    "instructions": "kopiera filerna till din sajt-rot och lägg till denna kod inom HTML <HEAD>-taggen:",
+    "instructionsBlock": "faviconit.com favicon-er",
+    "instructionsTitle": "faviconit-instruktioner",
+    "instructionThanks": "Tack för att du använer faviconit!"
+  },
+  "error404": {
+    "title": "hoppsan… sidan som du sökte kunde inte hittas"
+  },
   "validation": {
     "image": "{attribute} måste vara en bild.",
     "max_array": "{attribute} får inte innehålla mer än {max} objekt.",

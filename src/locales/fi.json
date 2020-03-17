@@ -1,57 +1,72 @@
 {
-  "advancedAccordionColapsed": "kehittynyt",
-  "advancedAccordionExpanded": "normaali",
-  "attribute": {
-    "iconFile": "<strong>favicon tiedosto</strong>",
-    "iconImage": "<strong>favicon tiedosto</strong>",
-    "iconLocation": "<strong>faviconin kansio</strong>",
-    "iconName": "<strong>faviconin nimi</strong>",
-    "iconVersion": "<strong>faviconin versio</strong>"
+  "general": {
+    "ogTitle": "ilmainen favicon & apple touch kuvan luoja",
+    "ogDescription": "lataa kuvasi ja tee siitä favicon & apple touch iconien joka toimii kaikilla laiteilla ja selaimille.",
+    "helpUsTranslate": "Auta kääntämään :)",
+    "pageTitle": "faviconit :: ilmainen favicon & apple touch ikonien luoja kaille laitteille ja selaimille"
   },
-  "availability": "kuvasi voidaan ladata ainakin tunnin ajan tästä url osoitteesta",
-  "donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"8CCYC56FRCYXQ\" /><input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Donate with PayPal button\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_FI/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form><div>",
-  "download": "lataa minun kuvat",
-  "downloadNotFound": "hups... emme voineet löytää kuviasi meidän palvelistamme",
-  "downloadReady": "Faviconisi ovat valmiitä :)",
-  "editImageText": "muokkaa kuvaa",
-  "faviconFile": "favicon tiedosto",
-  "faviconLocation": "faviconin kansio",
-  "faviconLocationHelp": "vain kirjaimet, numerot, ':', '.', ja '/' ovat sallittuja",
-  "faviconLocationPlaceholder": "jätä tyhjäksi jos haluat käyttää root kansiota",
-  "faviconName": "faviconin nimi",
-  "faviconNameHelp": "vain kirjaimet, numerot, '.', '_' ja  '_' ovat sallittuja",
-  "faviconNamePlaceholder": "jätä tyhjäksi jos haluat nimeksi \"favicon\"",
-  "faviconVersion": "faviconin versio",
-  "faviconVersionHelp": "vain kirjaimet, numerot, '.', '_' ja  '_' ovat sallittuja",
-  "faviconVersionPlaceholder": "jätä tyhjäksi jos et halua käyttää tätä",
-  "fillTheForm": "täytä kaavake ja luo faviconisi ilmaiseksi",
-  "formFileAbortUpload": "keskeytetty",
-  "formFileChoose": "valitse tiedosto",
-  "formFileDragNDrop": "<span>tai, vedä se tähän</span>",
-  "formFileHelp": "kuvan täytyy olla <strong> ainakin 310x310 pikseliä</strong> ja <strong> korkeintaan 1 megan kokoinen</strong>",
-  "formFileMultiDragError": "vedä yksi tiedosto",
-  "goBackLink": "palaa takaisin",
-  "goBackText": "ja lataa kuva jotta voit luoda apple touch kuvia sekä html määritteen",
-  "helpUsTranslate": "Auta kääntämään :)",
-  "homeHighlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> faviconit luo <i>faviconeja</i>, <i>apple touch ikonien</i> ja <HTML tunnisteen</i> kaikille laiteille ja selaimille.",
-  "homeSubHighlight": "kiitos kun käytit faviconit joka luo sinulle faviconeja, apple touch ikonien ja html määritteen!",
-  "instructions": "kopio tiedostoja sinun nettisivustosi ja lisää tämä koodi HTML <HEAD> tagien sisään:",
-  "instructionsBlock": "faviconit.com kuvat",
-  "instructionsTitle": "faviconit-ohjeet",
-  "instructionThanks": "kiitos kun käynti faviconit työkalua!",
-  "metaDescription": "lataa kuvasi ja tee siitä favicon & apple touch iconien joka toimii kaikilla laiteilla ja selaimille.",
-  "metaDownload": "lataa faviconit sekä html tunnisteen sisältävä zip tiedosto",
-  "metaFileNotFound": "tiedosto ei ole saatavilla, lataa tiedosto jotta voit luoda apple touch kuvat sekä html tunnisteen",
-  "ogDescription": "lataa kuvasi ja tee siitä favicon & apple touch iconien joka toimii kaikilla laiteilla ja selaimille.",
-  "ogTitle": "ilmainen favicon & apple touch kuvan luoja",
-  "pageNotFound": "hups.. sivua jota etsit ei voida näyttää",
-  "pageTitle": "faviconit :: ilmainen favicon & apple touch ikonien luoja kaille laitteille ja selaimille",
-  "shareTheLove": "helppoa, eikö niin? jaa tämä mahtava sivusto kavereillesi",
-  "socialImage": "ilmainen favicon & apple touch ikonien\nluoja kaille laitteille ja selaimille",
-  "swapImageText": "vaihda kuva",
-  "thanks": "kiitos kun käytit <span class=\"brand\">favicon<span class=\"orange\">it</span></span> joka luo sinulle faviconeja, apple touch ikonien ja html määritteen!",
-  "uploaderBlockMessage": "ladataan…",
-  "uploadError": "hupsis, jotain meni vikaan :( yritä uudelleen!",
+  "home": {
+    "meta": "lataa kuvasi ja tee siitä favicon & apple touch iconien joka toimii kaikilla laiteilla ja selaimille.",
+    "socialImage": "ilmainen favicon & apple touch ikonien\nluoja kaille laitteille ja selaimille",
+    "highlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> faviconit luo <i>faviconeja</i>, <i>apple touch ikonien</i> ja <HTML tunnisteen</i> kaikille laiteille ja selaimille.",
+    "subHighlight": "kiitos kun käytit faviconit joka luo sinulle faviconeja, apple touch ikonien ja html määritteen!",
+    "form": {
+      "title": "täytä kaavake ja luo faviconisi ilmaiseksi",
+      "file": {
+        "title": "favicon tiedosto",
+        "choose": "valitse tiedosto",
+        "dragNDrop": "<span>tai, vedä se tähän</span>",
+        "help": "kuvan täytyy olla <strong> ainakin 310x310 pikseliä</strong> ja <strong> korkeintaan 1 megan kokoinen</strong>",
+        "editImage": "muokkaa kuvaa",
+        "swapImage": "vaihda kuva",
+        "abortUpload": "keskeytetty",
+        "multiDragError": "vedä yksi tiedosto",
+        "uploaderBlockMessage": "ladataan…",
+        "uploadError": "hupsis, jotain meni vikaan :( yritä uudelleen!"
+      },
+      "name": {
+        "title": "faviconin nimi",
+        "help": "vain kirjaimet, numerot, '.', '_' ja  '_' ovat sallittuja",
+        "placeholder": "jätä tyhjäksi jos haluat nimeksi \"favicon\""
+      },
+      "folder": {
+        "title": "faviconin kansio",
+        "help": "vain kirjaimet, numerot, ':', '.', ja '/' ovat sallittuja",
+        "placeholder": "jätä tyhjäksi jos haluat käyttää root kansiota"
+      },
+      "version": {
+        "title": "faviconin versio",
+        "help": "vain kirjaimet, numerot, '.', '_' ja  '_' ovat sallittuja",
+        "placeholder": "jätä tyhjäksi jos et halua käyttää tätä"
+      },
+      "advancedAccordionColapsed": "kehittynyt",
+      "advancedAccordionExpanded": "normaali"
+    }
+  },
+  "download": {
+    "meta": "lataa faviconit sekä html tunnisteen sisältävä zip tiedosto",
+    "thanks": "kiitos kun käytit <span class=\"brand\">favicon<span class=\"orange\">it</span></span> joka luo sinulle faviconeja, apple touch ikonien ja html määritteen!",
+    "downloadReady": "Faviconisi ovat valmiitä :)",
+    "availability": "kuvasi voidaan ladata ainakin tunnin ajan tästä url osoitteesta",
+    "donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"8CCYC56FRCYXQ\" /><input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Donate with PayPal button\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_FI/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form><div>",
+    "download": "lataa minun kuvat",
+    "goBackLink": "palaa takaisin",
+    "goBackText": "ja lataa kuva jotta voit luoda apple touch kuvia sekä html määritteen",
+    "shareTheLove": "helppoa, eikö niin? jaa tämä mahtava sivusto kavereillesi",
+    "notFound": {
+      "metaFileNotFound": "tiedosto ei ole saatavilla, lataa tiedosto jotta voit luoda apple touch kuvat sekä html tunnisteen",
+      "title": "hups... emme voineet löytää kuviasi meidän palvelistamme"
+    }
+  },
+  "instructions": {
+    "instructions": "kopio tiedostoja sinun nettisivustosi ja lisää tämä koodi HTML <HEAD> tagien sisään:",
+    "instructionsBlock": "faviconit.com kuvat",
+    "instructionsTitle": "faviconit-ohjeet",
+    "instructionThanks": "kiitos kun käynti faviconit työkalua!"
+  },
+  "error404": {
+    "title": "hups.. sivua jota etsit ei voida näyttää"
+  },
   "validation": {
     "image": "{attribute} pitää olla kuva (jpeg, png, bmp, gif).",
     "max_array": "The {attribute} may not have more than {max} items.",
