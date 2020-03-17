@@ -1,81 +1,82 @@
 {
-  "general": {
-    "ogTitle": "gratis favicon & Apple Touch Icoon generator",
-    "ogDescription": "upload een afbeelding om favicons, Apple Touch Iconen en een HTML header te maken voor alle apparaten en browsers.",
-    "helpUsTranslate": "help ons met vertalen :)",
-    "pageTitle": "faviconit :: gratis favicon & apple touch icoon generator voor alle apparaten en browsers"
-  },
-  "home": {
-    "meta": "upload een afbeelding om favicons, Apple Touch Iconen en een HTML header te maken voor alle apparaten en browsers.",
-    "socialImage": "gratis favicon & apple touch icoon\ngenerator voor alle apparaten en browsers",
-    "highlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> maakt <i>favicons</i>, <i>Apple Touch Icons</i> en <i>HTML headers</i> voor alle apparaten en browsers.",
-    "subHighlight": "het is gratis! de makkelijkste favicon generator die je ooit zult zien. het enige wat je hoeft te doen is een afbeelding uploaden!",
-    "form": {
-      "title": "vul het formulier in en creeër je eigen favicon voor niks",
-      "file": {
-        "title": "favicon bestand",
-        "choose": "kies bestand",
-        "dragNDrop": "<span>of versleep het hier naartoe</span>",
-        "help": "afbeelding moet <strong>tenminste 310x310px</strong> zijn en <strong>maximaal 1MB</strong> groot zijn",
-        "editImage": "bewerk afbeelding",
-        "swapImage": "verwissel afbeelding",
-        "abortUpload": "stoppen",
-        "multiDragError": "versleep een enkel bestand",
-        "uploaderBlockMessage": "bestand uploaden...",
-        "uploadError": "fout met het opslaan van de afbeelding. probeer het alstublieft opnieuw."
-      },
-      "name": {
-        "title": "favicon naam",
-        "help": "gebruik alleen letters, nummers, '.', '-' en '_'",
-        "placeholder": "laat leeg om \"favicon\" te gebruiken als naam"
-      },
-      "folder": {
-        "title": "favicon folder",
-        "help": "gebruik alleen letters, nummers, ':', '.', en '/'",
-        "placeholder": "laat leeg om de favicons in de hoofdfolder te plaatsen"
-      },
-      "version": {
-        "title": "favicon versie",
-        "help": "gebruik alleen letters, nummers, '.', '-' en '_'",
-        "placeholder": "laat leeg als je dit niet wilt gebruiken"
-      },
-      "advancedAccordionColapsed": "geavanceerd",
-      "advancedAccordionExpanded": "regular"
-    }
-  },
-  "download": {
-    "meta": "download het .zip bestand met de favicons, Apple Touch Iconen en HTML header instructies",
-    "thanks": "bedankt voor het gebruiken van <span class=\"brand\">favicon<span class=\"orange\">it</span></span>!",
-    "downloadReady": "je favicons zijn klaar voor gebruik :)",
-    "availability": "je favicons blijven tenminste 1 uur beschikbaar op deze URL",
-    "donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"3968FUQCTE3AA\" /><input type=\"image\" src=\"https://www.paypalobjects.com/nl_NL/NL/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Doneren met PayPal-knop\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/nl_NL/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
-    "download": "download mijn favicons",
-    "goBackLink": "ga terug",
-    "goBackText": "en upload een afbeelding om favicons, Apple Touch Icons en HTML headers te maken",
-    "shareTheLove": "makkelijk, toch? deel de liefde met je vrienden",
-    "notFound": {
-      "metaFileNotFound": "testand is niet beschikbaar. upload een afbeelding om de favicons, Apple Touch afbeeldingen en HTML header te maken",
-      "title": "sorry… we konden de favicon niet vinden op onze servers"
-    }
-  },
-  "instructions": {
-    "instructions": "kopieër de bestanden naar je site en voeg deze code toe aan de <HEAD> tag in je HTML:",
-    "instructionsBlock": "faviconit.com favicons",
-    "instructionsTitle": "faviconit-instructies",
-    "instructionThanks": "bedankt voor het gebruiken van faviconit!"
-  },
-  "error404": {
-    "title": "oeps… de pagina die je zoekt was niet te vinden"
-  },
-  "validation": {
-    "image": "{attribute} moet een afbeelding(jpeg, png, bmp, or gif) zijn.",
-    "max_array": "{attribute} mag maximaal {max} items bevatten.",
-    "max_file": "{attribute} moet minder dan {max} kilobytes zijn.",
-    "max_numeric": "{attribute} moet minder dan {max} zijn.",
-    "max_string": "{attribute} moet minder dan {max} karakters zijn.",
-    "minimum_size_image": "het <strong>favicon bestand</strong> moet tenminste 310x310px zijn. upload alstublieft een groter bestand.",
-    "regex": "{attribute} tag is ongeldig.",
-    "required": "{attribute} is verplicht.",
-    "squared_image": "{attribute} moet een <strong>vierkant</strong> van tenminste 310px zijn. upload een bestand en klik op 'bewerk afbeelding' om het te croppen."
+	"general": {
+		"ogTitle": "gratis favicon & Apple Touch Icoon generator",
+		"ogDescription": "upload een afbeelding om favicons, Apple Touch Iconen en een HTML header te maken voor alle apparaten en browsers.",
+		"helpUsTranslate": "help ons met vertalen :)",
+		"pageTitle": "faviconit :: gratis favicon & apple touch icoon generator voor alle apparaten en browsers"
+	},
+	"home": {
+		"meta": "upload een afbeelding om favicons, Apple Touch Iconen en een HTML header te maken voor alle apparaten en browsers.",
+		"socialImage": "gratis favicon & apple touch icoon\ngenerator voor alle apparaten en browsers",
+		"highlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> maakt <i>favicons</i>, <i>Apple Touch Icons</i> en <i>HTML headers</i> voor alle apparaten en browsers.",
+		"subHighlight": "het is gratis! de makkelijkste favicon generator die je ooit zult zien. het enige wat je hoeft te doen is een afbeelding uploaden!",
+		"form": {
+			"title": "vul het formulier in en creeër je eigen favicon voor niks",
+			"file": {
+				"title": "favicon bestand",
+				"choose": "kies bestand",
+				"dragNDrop": "<span>of versleep het hier naartoe</span>",
+				"help": "afbeelding moet <strong>tenminste 310x310px</strong> zijn en <strong>maximaal 1MB</strong> groot zijn",
+				"editImage": "bewerk afbeelding",
+				"swapImage": "verwissel afbeelding",
+				"abortUpload": "stoppen",
+				"multiDragError": "versleep een enkel bestand",
+				"uploaderBlockMessage": "bestand uploaden...",
+				"uploadError": "fout met het opslaan van de afbeelding. probeer het alstublieft opnieuw."
+			},
+			"name": {
+				"title": "favicon naam",
+				"help": "gebruik alleen letters, nummers, '.', '-' en '_'",
+				"placeholder": "laat leeg om \"favicon\" te gebruiken als naam"
+			},
+			"folder": {
+				"title": "favicon folder",
+				"help": "gebruik alleen letters, nummers, ':', '.', en '/'",
+				"placeholder": "laat leeg om de favicons in de hoofdfolder te plaatsen"
+			},
+			"version": {
+				"title": "favicon versie",
+				"help": "gebruik alleen letters, nummers, '.', '-' en '_'",
+				"placeholder": "laat leeg als je dit niet wilt gebruiken"
+			},
+			"advancedAccordionColapsed": "geavanceerd",
+			"advancedAccordionExpanded": "regular",
+			"file,help": "home.form.file,help"
+		}
+	},
+	"download": {
+		"meta": "download het .zip bestand met de favicons, Apple Touch Iconen en HTML header instructies",
+		"thanks": "bedankt voor het gebruiken van <span class=\"brand\">favicon<span class=\"orange\">it</span></span>!",
+		"downloadReady": "je favicons zijn klaar voor gebruik :)",
+		"availability": "je favicons blijven tenminste 1 uur beschikbaar op deze URL",
+		"donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"3968FUQCTE3AA\" /><input type=\"image\" src=\"https://www.paypalobjects.com/nl_NL/NL/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Doneren met PayPal-knop\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/nl_NL/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
+		"download": "download mijn favicons",
+		"goBackLink": "ga terug",
+		"goBackText": "en upload een afbeelding om favicons, Apple Touch Icons en HTML headers te maken",
+		"shareTheLove": "makkelijk, toch? deel de liefde met je vrienden",
+		"notFound": {
+			"metaFileNotFound": "testand is niet beschikbaar. upload een afbeelding om de favicons, Apple Touch afbeeldingen en HTML header te maken",
+			"title": "sorry… we konden de favicon niet vinden op onze servers"
+		}
+	},
+	"instructions": {
+		"instructions": "kopieër de bestanden naar je site en voeg deze code toe aan de <HEAD> tag in je HTML:",
+		"instructionsBlock": "faviconit.com favicons",
+		"instructionsTitle": "faviconit-instructies",
+		"instructionThanks": "bedankt voor het gebruiken van faviconit!"
+	},
+	"error404": {
+		"title": "oeps… de pagina die je zoekt was niet te vinden"
+	},
+	"validation": {
+		"image": "{attribute} moet een afbeelding(jpeg, png, bmp, or gif) zijn.",
+		"max_array": "{attribute} mag maximaal {max} items bevatten.",
+		"max_file": "{attribute} moet minder dan {max} kilobytes zijn.",
+		"max_numeric": "{attribute} moet minder dan {max} zijn.",
+		"max_string": "{attribute} moet minder dan {max} karakters zijn.",
+		"minimum_size_image": "het <strong>favicon bestand</strong> moet tenminste 310x310px zijn. upload alstublieft een groter bestand.",
+		"regex": "{attribute} tag is ongeldig.",
+		"required": "{attribute} is verplicht.",
+		"squared_image": "{attribute} moet een <strong>vierkant</strong> van tenminste 310px zijn. upload een bestand en klik op 'bewerk afbeelding' om het te croppen."
   }
 }

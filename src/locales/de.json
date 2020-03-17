@@ -1,81 +1,82 @@
 {
-  "general": {
-    "ogTitle": "Freier Favicon & Apple-Touch-Icon Generator",
-    "ogDescription": "Lade ein Bild hoch, um Favicons, Apple-Touch-Icons und den korrekten HTML-Header zu erzeugen. Das Ergebnis funktioniert dann auf allen Geräten und Web-Browsern.",
-    "helpUsTranslate": "Hilf uns mit der Übersetzung :)",
-    "pageTitle": "faviconit :: freier Favicon & Apple-Touch-Icon Generator für alle Geräte und Web-Browser"
-  },
-  "home": {
-    "meta": "Lade ein Bild hoch, um Favicons, Apple-Touch-Icons und den korrekten HTML-Header zu erzeugen. Das Ergebnis funktioniert dann auf allen Geräten und Web-Browsern.",
-    "socialImage": "Freier Favicon & Apple-Touch-Icon\nGenerator für alle Geräte und Web-Browser",
-    "highlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> generiert <i>Favicons</i>, <i>Apple-Touch-Icons</i> und den <i>HTML-Header</i> für alle Geräte und Web-Browser.",
-    "subHighlight": "Völlig kostenfrei! Der einfachste Favicon-Generator im Netz. Lade einfach ein Bild hoch!",
-    "form": {
-      "title": "Trage eine Datei ein und generiere Dein Favicon",
-      "file": {
-        "title": "Favicon-Datei",
-        "choose": "Wähle eine Datei aus",
-        "dragNDrop": "<span>oder ziehe sie hierher</span>",
-        "help": "Das Bild braucht <strong>mindestens 310x310px</strong> und <strong>höchstens 1MB",
-        "editImage": "bearbeite das Bild",
-        "swapImage": "wechsle das Bild",
-        "abortUpload": "Abbruch",
-        "multiDragError": "lege eine einzelne Datei hier ab",
-        "uploaderBlockMessage": "Datei wird hochgeladen...",
-        "uploadError": "Entschuldigung, es hat nicht geklappt :( Bitte versuche Dein Bild erneut hochzuladen!"
-      },
-      "name": {
-        "title": "Name des Favicons",
-        "help": "Nur Buchstaben, Zahlen, '.', '-' und '_' sind erlaubt",
-        "placeholder": "Freilassen, um \"favicon\" als Name zu verwenden"
-      },
-      "folder": {
-        "title": "Favicon Ordner",
-        "help": "Nur Buchstaben, Zahlen, ':', '.', und '/' sind erlaubt",
-        "placeholder": "Frei lassen, um den Standardordner zu benutzen"
-      },
-      "version": {
-        "title": "Version des Favicons",
-        "help": "Nur Buchstaben, Zahlen, '.', '-' und '_' sind erlaubt",
-        "placeholder": "Freilassen, wenn Du das nicht verwenden möchtest"
-      },
-      "advancedAccordionColapsed": "fortgeschritten",
-      "advancedAccordionExpanded": "normal"
-    }
-  },
-  "download": {
-    "meta": "Lade die Zip-Datei mit den Favicons, Apple-Touch-Bildern und der Anleitung für den HTML-Header herunter.",
-    "thanks": "Danke für die Verwendung von faviconit, um Deine Favicons, Apple-Touch-Icons und den HTML-Header zu generieren.",
-    "downloadReady": "Deine Favicons sind fertig :)",
-    "availability": "Deine Favicons werden unter dieser URL für mindestens 1 Stunde zum herunterladen zur Verfügung stehen.",
-    "donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"UNJ6EXUYC7J38\" /><input type=\"image\" src=\"https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Spenden mit dem PayPal-Button\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/de_DE/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
-    "download": "Lade meine Favicons herunter",
-    "goBackLink": "Gehe zurück",
-    "goBackText": "und lade ein Bild hoch, um Favicons, Apple-Touch-Icons und den HTML-Header zu erzeugen.",
-    "shareTheLove": "Einfach, oder? Erzähle Deinen Freunden davon",
-    "notFound": {
-      "metaFileNotFound": "Die Datei ist nicht verfügbar. Lade ein Bild hoch, um Favicons, Apple-Touch-Icons und den korrekten HTML-Header zu erzeugen.",
-      "title": "Entschuldigung... wir konnten das Favicon nicht auf unseren Servern finden"
-    }
-  },
-  "instructions": {
-    "instructions": "Kopiere die Dateien ins Deiner Seite und füge folgenden Code in das HTML-<HEAD>-Tag ein:",
-    "instructionsBlock": "faviconit.com Favicons",
-    "instructionsTitle": "faviconit-Anleitung",
-    "instructionThanks": "Danke für die Verwendung von faviconit!"
-  },
-  "error404": {
-    "title": "Ups... die Seite nach der Du suchst, fehlt"
-  },
-  "validation": {
-    "image": "das {attribute} braucht <strong>mindestens 310x310px</strong> und <strong>höchstens 1MB",
-    "max_array": "das {attribute} darf nicht mehr als {max} Einzelteile.",
-    "max_file": "das {attribute} darf nicht größer sein als {max} KB.",
-    "max_numeric": "das {attribute} kann nicht mehr als {max} Zeichen sein.",
-    "max_string": "das {attribute} darf nicht größer als {max} lang sein.",
-    "minimum_size_image": "die <strong>Favicon-Datei</strong> muss in jeder Richtung mindestens 310px haben. Bitte lade ein größeres Bild hoch.",
-    "regex": "das {attribute} ist ungültig.",
-    "required": "das {attribute} ist erforderlich.",
-    "squared_image": "de {attribute} moet een <strong>vierkant</strong> van tenminste 310px zijn. <a href='https://picresize.com/' target='_blamk'>CROP HERE</a>"
-  }
+	"general": {
+		"ogTitle": "Freier Favicon & Apple-Touch-Icon Generator",
+		"ogDescription": "Lade ein Bild hoch, um Favicons, Apple-Touch-Icons und den korrekten HTML-Header zu erzeugen. Das Ergebnis funktioniert dann auf allen Geräten und Web-Browsern.",
+		"helpUsTranslate": "Hilf uns mit der Übersetzung :)",
+		"pageTitle": "faviconit :: freier Favicon & Apple-Touch-Icon Generator für alle Geräte und Web-Browser"
+	},
+	"home": {
+		"meta": "Lade ein Bild hoch, um Favicons, Apple-Touch-Icons und den korrekten HTML-Header zu erzeugen. Das Ergebnis funktioniert dann auf allen Geräten und Web-Browsern.",
+		"socialImage": "Freier Favicon & Apple-Touch-Icon\nGenerator für alle Geräte und Web-Browser",
+		"highlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> generiert <i>Favicons</i>, <i>Apple-Touch-Icons</i> und den <i>HTML-Header</i> für alle Geräte und Web-Browser.",
+		"subHighlight": "Völlig kostenfrei! Der einfachste Favicon-Generator im Netz. Lade einfach ein Bild hoch!",
+		"form": {
+			"title": "Trage eine Datei ein und generiere Dein Favicon",
+			"file": {
+				"title": "Favicon-Datei",
+				"choose": "Wähle eine Datei aus",
+				"dragNDrop": "<span>oder ziehe sie hierher</span>",
+				"help": "Das Bild braucht <strong>mindestens 310x310px</strong> und <strong>höchstens 1MB",
+				"editImage": "bearbeite das Bild",
+				"swapImage": "wechsle das Bild",
+				"abortUpload": "Abbruch",
+				"multiDragError": "lege eine einzelne Datei hier ab",
+				"uploaderBlockMessage": "Datei wird hochgeladen...",
+				"uploadError": "Entschuldigung, es hat nicht geklappt :( Bitte versuche Dein Bild erneut hochzuladen!"
+			},
+			"name": {
+				"title": "Name des Favicons",
+				"help": "Nur Buchstaben, Zahlen, '.', '-' und '_' sind erlaubt",
+				"placeholder": "Freilassen, um \"favicon\" als Name zu verwenden"
+			},
+			"folder": {
+				"title": "Favicon Ordner",
+				"help": "Nur Buchstaben, Zahlen, ':', '.', und '/' sind erlaubt",
+				"placeholder": "Frei lassen, um den Standardordner zu benutzen"
+			},
+			"version": {
+				"title": "Version des Favicons",
+				"help": "Nur Buchstaben, Zahlen, '.', '-' und '_' sind erlaubt",
+				"placeholder": "Freilassen, wenn Du das nicht verwenden möchtest"
+			},
+			"advancedAccordionColapsed": "fortgeschritten",
+			"advancedAccordionExpanded": "normal",
+			"file,help": "home.form.file,help"
+		}
+	},
+	"download": {
+		"meta": "Lade die Zip-Datei mit den Favicons, Apple-Touch-Bildern und der Anleitung für den HTML-Header herunter.",
+		"thanks": "Danke für die Verwendung von faviconit, um Deine Favicons, Apple-Touch-Icons und den HTML-Header zu generieren.",
+		"downloadReady": "Deine Favicons sind fertig :)",
+		"availability": "Deine Favicons werden unter dieser URL für mindestens 1 Stunde zum herunterladen zur Verfügung stehen.",
+		"donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"UNJ6EXUYC7J38\" /><input type=\"image\" src=\"https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Spenden mit dem PayPal-Button\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/de_DE/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
+		"download": "Lade meine Favicons herunter",
+		"goBackLink": "Gehe zurück",
+		"goBackText": "und lade ein Bild hoch, um Favicons, Apple-Touch-Icons und den HTML-Header zu erzeugen.",
+		"shareTheLove": "Einfach, oder? Erzähle Deinen Freunden davon",
+		"notFound": {
+			"metaFileNotFound": "Die Datei ist nicht verfügbar. Lade ein Bild hoch, um Favicons, Apple-Touch-Icons und den korrekten HTML-Header zu erzeugen.",
+			"title": "Entschuldigung... wir konnten das Favicon nicht auf unseren Servern finden"
+		}
+	},
+	"instructions": {
+		"instructions": "Kopiere die Dateien ins Deiner Seite und füge folgenden Code in das HTML-<HEAD>-Tag ein:",
+		"instructionsBlock": "faviconit.com Favicons",
+		"instructionsTitle": "faviconit-Anleitung",
+		"instructionThanks": "Danke für die Verwendung von faviconit!"
+	},
+	"error404": {
+		"title": "Ups... die Seite nach der Du suchst, fehlt"
+	},
+	"validation": {
+		"image": "das {attribute} braucht <strong>mindestens 310x310px</strong> und <strong>höchstens 1MB",
+		"max_array": "das {attribute} darf nicht mehr als {max} Einzelteile.",
+		"max_file": "das {attribute} darf nicht größer sein als {max} KB.",
+		"max_numeric": "das {attribute} kann nicht mehr als {max} Zeichen sein.",
+		"max_string": "das {attribute} darf nicht größer als {max} lang sein.",
+		"minimum_size_image": "die <strong>Favicon-Datei</strong> muss in jeder Richtung mindestens 310px haben. Bitte lade ein größeres Bild hoch.",
+		"regex": "das {attribute} ist ungültig.",
+		"required": "das {attribute} ist erforderlich.",
+		"squared_image": "de {attribute} moet een <strong>vierkant</strong> van tenminste 310px zijn. <a href='https://picresize.com/' target='_blamk'>CROP HERE</a>"
+	}
 }

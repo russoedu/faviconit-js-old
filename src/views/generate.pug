@@ -2,11 +2,8 @@ extends templates/layout
 
 block content
   h1 GENERTE VIEW
-  p Welcome to #{title}
+  p Welcome to #{page}
   p Locale: #{locale}
   p Language object
   each val in language
     p= val
-
-  p #{__('pageTitle')}
-  p #{__('socialImage')}

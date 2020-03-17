@@ -1,27 +1,42 @@
 include ../scripts/ga
-title #{__('pageTitle')}
+title #{__('general.pageTitle')}
 
 //- Load Bootstrap CSS based on read direction
 if language.dir === 'ltr'
-  link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' integrity='sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh', crossorigin='anonymous')
+  link(
+    rel='stylesheet'
+    href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' integrity='sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh' crossorigin='anonymous'
+  )
 else
-  link(rel='stylesheet', href='https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css' integrity='sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If' crossorigin='anonymous')
+  link(
+    rel='stylesheet'
+    href='https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css' integrity='sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If' crossorigin='anonymous'
+  )
 
 //- Faviconit CSS
-link(rel='stylesheet' href='/css/faviconit.css')
+link(
+  rel='stylesheet'
+  href='/css/faviconit.css'
+)
 
 //- Google fonts
-link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap')
+link(
+  rel='stylesheet'
+  href='https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap'
+)
 
 //- Image cropper - https://github.com/fengyuanchen/jquery-cropper
-//- link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/cropper/4.1.0/cropper.min.css')
+//- link(
+  rel='stylesheet'
+  href='https://cdnjs.cloudflare.com/ajax/libs/cropper/4.1.0/cropper.min.css'
+  )
 
 //- File upload
 //- link(rel='stylesheet', href='/css/jquery.filer.css')
 //- link(rel='stylesheet', href='/css/themes/jquery.filer-dragdropbox-theme.css')
 
 meta(http-equiv='Content-Type' content='text/html; charset=utf-8')
-meta(name='Description' content=__('metaDescription'))
+meta(name='Description' content= headMeta)
 meta(name='apple-mobile-web-app-title' content='faviconit!')
 meta(charset='utf-8')
 meta(name='viewport' content='width=device-width initial-scale=1 shrink-to-fit=no')
@@ -29,8 +44,8 @@ meta(property='fb:admins' content='634567411')
 meta(name='twitter:site:id' content='2318538170')
 meta(property='og:url' content=url)
 meta(property='og:site_name' content='faviconit')
-meta(property='og:title' content=__('ogTitle'))
-meta(property='og:description' content=__('ogDescription'))
+meta(property='og:title' content=__('general.ogTitle'))
+meta(property='og:description' content=__('general.ogDescription'))
 if socialImageUrl
   meta(property='og:image' content=socialImageUrl)
 else
@@ -63,4 +78,8 @@ meta(name='msapplication-TileImage' content='/favicon/favicon-144.png')
 meta(name='msapplication-config' content='/favicon/browserconfig.xml')
 // ****** faviconit.com favicons ******
 
-script(async data-ad-client='ca-pub-4608591291382670' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')
+script(
+  async
+  data-ad-client='ca-pub-4608591291382670'
+  src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+)

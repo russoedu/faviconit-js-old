@@ -1,81 +1,82 @@
 {
-  "general": {
-    "ogTitle": "generatore gratuito di favicon e icone apple-touch",
-    "ogDescription": "carica un'immagine per creare favicon, icone apple-touch e i corretti header HTML per utilizzarle con tutti i browser e dispositivi",
-    "helpUsTranslate": "aiutaci a tradurre :)",
-    "pageTitle": "faviconit :: generatore gratuito di favicon e icone apple-touch per tutti i browser e dispositivi"
-  },
-  "home": {
-    "meta": "carica un'immagine per creare favicon, icone apple-touch e i corretti header HTML per utilizzarle con tutti i browser e dispositivi",
-    "socialImage": "generatore gratuito di favicon\ne icone apple-touch",
-    "highlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> crea <i>favicon</i>, <i>icone apple-touch</i> e i rispettivi <i>header HTML</i> per tutti i browser e dispositivi.",
-    "subHighlight": "è gratis! il tool più facile da usare che tu abbia mai visto. tutto quello che devi fare è caricare un'immagine!",
-    "form": {
-      "title": "riempi il form e crea la tua favicon gratis",
-      "file": {
-        "title": "file favicon",
-        "choose": "scegli il file",
-        "dragNDrop": "<span>o trascinalo qui sopra</span>",
-        "help": "l'immagine deve essere <strong>almeno 310x310px</strong> e <strong>massimo 1MB</strong>",
-        "editImage": "modifica immagine",
-        "swapImage": "scambia immagine",
-        "abortUpload": "annulla",
-        "multiDragError": "trascina un file solo",
-        "uploaderBlockMessage": "caricamento in corso…",
-        "uploadError": "si è verificato un errore nel salvataggio dell'immagine. per favore, prova di nuovo."
-      },
-      "name": {
-        "title": "nome favicon",
-        "help": "sono ammessi solo numeri, lettere, '.', '-' e '_'",
-        "placeholder": "lascia vuoto per usare \"favicon\" come nome"
-      },
-      "folder": {
-        "title": "cartella favicon",
-        "help": "sono ammessi solo numeri, lettere, ':', '.', e '/'",
-        "placeholder": "lascia vuoto per usare la cartella di root"
-      },
-      "version": {
-        "title": "versione favicon",
-        "help": "sono ammessi solo numeri, lettere, '.', '-' e '_'",
-        "placeholder": "lascia vuoto se non vuoi utilizzare questa funzione"
-      },
-      "advancedAccordionColapsed": "avanzate",
-      "advancedAccordionExpanded": "base"
-    }
-  },
-  "download": {
-    "meta": "scarica il file zip con le favicon, le immagini apple-touch e le istruzioni degli header HTML",
-    "thanks": "grazie per aver usato <span class=\"brand\">favicon<span class=\"orange\">it</span></span> per creare le tue favicon, icone apple-touch e header HTML!",
-    "downloadReady": "le tue favicon sono pronte per essere scaricate :)",
-    "availability": "la tua favicon sarà disponibile per il download a questo indirizzo per un'ora",
-    "donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"KU95JUNRHAUMN\" /><input type=\"image\" src=\"https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Fai una donazione con il pulsante PayPal\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/it_IT/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
-    "download": "scarica la tue favicon",
-    "goBackLink": "torna indietro",
-    "goBackText": "e carica un'immagine per creare favicon, icone apple-touch e gli header HTML",
-    "shareTheLove": "facile, no? condividilo con i tuoi amici",
-    "notFound": {
-      "metaFileNotFound": "il file non è disponibile. carica un'immagine per creare le favicon, le icone apple-touch e gli header HTML",
-      "title": "spiacente… non abbiamo trovato questa favicon nei nostri server"
-    }
-  },
-  "instructions": {
-    "instructions": "copia i file al tuo sito e aggiungi questo codice nel tag <HEAD> della pagina HTML:",
-    "instructionsBlock": "favicon faviconit.com",
-    "instructionsTitle": "istruzioni-faviconit",
-    "instructionThanks": "grazie per aver usato faviconit!"
-  },
-  "error404": {
-    "title": "ops… la pagina che stavi cercando non è stata trovata"
-  },
-  "validation": {
-    "image": "{attribute} deve essere un'immagine (jpeg, png, bmp, or gif).",
-    "max_array": "{attribute} non può avere più di {max} elementi.",
-    "max_file": "{attribute} non deve essere più grande di {max} kilobytes.",
-    "max_numeric": "{attribute} deve essere minore di {max}.",
-    "max_string": "{attribute} non può contenere più di {max} caratteri.",
-    "minimum_size_image": "l'<strong>immagine favicon</strong> deve essere grande almeno 310px in altezza e in larghezza. per favore, carica un'immagine più grande.",
-    "regex": "il formato di {attribute} non è valido.",
-    "required": "{attribute} è richiesto.",
-    "squared_image": "{attribute} dev'essere <strong>quadrato</strong> di almeno 310px. carica la tua immagine e clicca su 'modifica immagine' per tagliarla."
-  }
+	"general": {
+		"ogTitle": "generatore gratuito di favicon e icone apple-touch",
+		"ogDescription": "carica un'immagine per creare favicon, icone apple-touch e i corretti header HTML per utilizzarle con tutti i browser e dispositivi",
+		"helpUsTranslate": "aiutaci a tradurre :)",
+		"pageTitle": "faviconit :: generatore gratuito di favicon e icone apple-touch per tutti i browser e dispositivi"
+	},
+	"home": {
+		"meta": "carica un'immagine per creare favicon, icone apple-touch e i corretti header HTML per utilizzarle con tutti i browser e dispositivi",
+		"socialImage": "generatore gratuito di favicon\ne icone apple-touch",
+		"highlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> crea <i>favicon</i>, <i>icone apple-touch</i> e i rispettivi <i>header HTML</i> per tutti i browser e dispositivi.",
+		"subHighlight": "è gratis! il tool più facile da usare che tu abbia mai visto. tutto quello che devi fare è caricare un'immagine!",
+		"form": {
+			"title": "riempi il form e crea la tua favicon gratis",
+			"file": {
+				"title": "file favicon",
+				"choose": "scegli il file",
+				"dragNDrop": "<span>o trascinalo qui sopra</span>",
+				"help": "l'immagine deve essere <strong>almeno 310x310px</strong> e <strong>massimo 1MB</strong>",
+				"editImage": "modifica immagine",
+				"swapImage": "scambia immagine",
+				"abortUpload": "annulla",
+				"multiDragError": "trascina un file solo",
+				"uploaderBlockMessage": "caricamento in corso…",
+				"uploadError": "si è verificato un errore nel salvataggio dell'immagine. per favore, prova di nuovo."
+			},
+			"name": {
+				"title": "nome favicon",
+				"help": "sono ammessi solo numeri, lettere, '.', '-' e '_'",
+				"placeholder": "lascia vuoto per usare \"favicon\" come nome"
+			},
+			"folder": {
+				"title": "cartella favicon",
+				"help": "sono ammessi solo numeri, lettere, ':', '.', e '/'",
+				"placeholder": "lascia vuoto per usare la cartella di root"
+			},
+			"version": {
+				"title": "versione favicon",
+				"help": "sono ammessi solo numeri, lettere, '.', '-' e '_'",
+				"placeholder": "lascia vuoto se non vuoi utilizzare questa funzione"
+			},
+			"advancedAccordionColapsed": "avanzate",
+			"advancedAccordionExpanded": "base",
+			"file,help": "home.form.file,help"
+		}
+	},
+	"download": {
+		"meta": "scarica il file zip con le favicon, le immagini apple-touch e le istruzioni degli header HTML",
+		"thanks": "grazie per aver usato <span class=\"brand\">favicon<span class=\"orange\">it</span></span> per creare le tue favicon, icone apple-touch e header HTML!",
+		"downloadReady": "le tue favicon sono pronte per essere scaricate :)",
+		"availability": "la tua favicon sarà disponibile per il download a questo indirizzo per un'ora",
+		"donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"KU95JUNRHAUMN\" /><input type=\"image\" src=\"https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Fai una donazione con il pulsante PayPal\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/it_IT/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
+		"download": "scarica la tue favicon",
+		"goBackLink": "torna indietro",
+		"goBackText": "e carica un'immagine per creare favicon, icone apple-touch e gli header HTML",
+		"shareTheLove": "facile, no? condividilo con i tuoi amici",
+		"notFound": {
+			"metaFileNotFound": "il file non è disponibile. carica un'immagine per creare le favicon, le icone apple-touch e gli header HTML",
+			"title": "spiacente… non abbiamo trovato questa favicon nei nostri server"
+		}
+	},
+	"instructions": {
+		"instructions": "copia i file al tuo sito e aggiungi questo codice nel tag <HEAD> della pagina HTML:",
+		"instructionsBlock": "favicon faviconit.com",
+		"instructionsTitle": "istruzioni-faviconit",
+		"instructionThanks": "grazie per aver usato faviconit!"
+	},
+	"error404": {
+		"title": "ops… la pagina che stavi cercando non è stata trovata"
+	},
+	"validation": {
+		"image": "{attribute} deve essere un'immagine (jpeg, png, bmp, or gif).",
+		"max_array": "{attribute} non può avere più di {max} elementi.",
+		"max_file": "{attribute} non deve essere più grande di {max} kilobytes.",
+		"max_numeric": "{attribute} deve essere minore di {max}.",
+		"max_string": "{attribute} non può contenere più di {max} caratteri.",
+		"minimum_size_image": "l'<strong>immagine favicon</strong> deve essere grande almeno 310px in altezza e in larghezza. per favore, carica un'immagine più grande.",
+		"regex": "il formato di {attribute} non è valido.",
+		"required": "{attribute} è richiesto.",
+		"squared_image": "{attribute} dev'essere <strong>quadrato</strong> di almeno 310px. carica la tua immagine e clicca su 'modifica immagine' per tagliarla."
+	}
 }

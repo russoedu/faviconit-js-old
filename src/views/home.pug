@@ -3,11 +3,11 @@ block content
   div.card#description
     //- img.card-img-top(src='/img/main-image.png', alt='Created with Faviconit')
     div.card-body
-      h5.card-title!= __('homeHighlight')
-      p.card-text!= __('homeSubHighlight')
+      h5.card-title!= __('home.highlight')
+      p.card-text!= __('home.subHighlight')
 
   div.card
-    div.card-header.text-center= __('fillTheForm')
+    div.card-header.text-center= __('home.form.title')
     div.card-body
       form
         div.alert.alert-danger.alert-dismissable
@@ -20,11 +20,11 @@ block content
         //-   input#filer_input(type="file" name="files[]" multiple="multiple")
         //-   input(type="submit" value="Submit")
         div.form-group
-          label.control-label.col-sm-3(for="iconFile")= __('faviconFile')
+          label.control-label.col-sm-3(for="iconFile")= __('home.form.file.title')
           div.col-sm-9
             div#upload-mask
-              div#fileUploader= __('formFileChoose')
-              span.help-block!= __('formFileHelp')
+              div#fileUploader= __('home.form.file.choose')
+              span.help-block!= __('home.form.file,help')
             div#imageDisplay
       h5.card-title Special title treatment
       p.card-text With supporting text below as a natural lead-in to additional content.
@@ -35,50 +35,59 @@ block content
           div.img-preview.preview-lg(style='width: 310px; height: 310px;')
         </div)
     div.card-footer.text-muted 2 days ago
-  p #{__('pageTitle')}
-  p #{__('socialImage')}
-  p #{__('homeHighlight')}
-  p #{__('homeSubHighlight')}
-  p #{__('fillTheForm')}
-  p #{__('faviconName')}
-  p #{__('faviconNamePlaceholder')}
-  p #{__('faviconNameHelp')}
-  p #{__('faviconVersionHelp')}
-  p #{__('faviconLocationHelp')}
-  p #{__('faviconVersion')}
-  p #{__('faviconVersionPlaceholder')}
-  p #{__('ogDescription')}
-  p #{__('metaDescription')}
-  p #{__('metaDownload')}
-  p #{__('metaFileNotFound')}
-  p #{__('ogTitle')}
-  p #{__('faviconFile')}
-  p #{__('formFileChoose')}
-  p #{__('formFileDragNDrop')}
-  p #{__('formFileMultiDragError')}
-  p #{__('uploaderBlockMessage')}
-  p #{__('formFileAbortUpload')}
-  p #{__('formFileHelp')}
-  p #{__('swapImageText')}
-  p #{__('editImageText')}
-  p #{__('uploadError')}
-  p #{__('advancedAccordionColapsed')}
-  p #{__('advancedAccordionExpanded')}
-  p #{__('downloadReady')}
-  p #{__('thanks')}
-  p #{__('download')}
-  p #{__('availability')}
-  p #{__('downloadNotFound')}
-  p #{__('goBackLink')}
-  p #{__('goBackText')}
-  p #{__('faviconLocation')}
-  p #{__('faviconLocationPlaceholder')}
-  p #{__('shareTheLove')}
-  p #{__('pageNotFound')}
-  p #{__('instructionsTitle')}
-  p #{__('instructionThanks')}
-  p #{__('instructions')}
-  p #{__('instructionsBlock')}
-  p #{__('helpUsTranslate')}
-  p #{__('donationButton')}
-  p!= __mf('validation.max_numeric', { attribute: __('attribute.iconName'), max: 20 })
+  h1 Home
+  p #{__('home.meta')}
+  p #{__('home.socialImage')}
+  p #{__('home.highlight')}
+  p #{__('home.subHighlight')}
+  h2 Form
+  p #{__('home.form.title')}
+  p #{__('home.form.file.title')}
+  p #{__('home.form.file.choose')}
+  p #{__('home.form.file.dragNDrop')}
+  p #{__('home.form.file.editImage')}
+  p #{__('home.form.file.swapImage')}
+  p #{__('home.form.file.abortUpload')}
+  p #{__('home.form.file.multiDragError')}
+  p #{__('home.form.file.uploaderBlockMessage')}
+  p #{__('home.form.file.uploadError')}
+  p #{__('home.form.name.title')}
+  p #{__('home.form.name.help')}
+  p #{__('home.form.name.placeholder')}
+  p #{__('home.form.folder.title')}
+  p #{__('home.form.folder.help')}
+  p #{__('home.form.folder.placeholder')}
+  p #{__('home.form.version.title')}
+  p #{__('home.form.version.help')}
+  p #{__('home.form.version.placeholder')}
+  p #{__('home.form.advancedAccordionColapsed')}
+  p #{__('home.form.advancedAccordionExpanded')}
+  h1 Download
+  p #{__('download.meta')}
+  p #{__('download.thanks')}
+  p #{__('download.downloadReady')}
+  p #{__('download.availability')}
+  div!= __('download.donationButton')
+  p #{__('download.download')}
+  p #{__('download.goBackLink')}
+  p #{__('download.goBackText')}
+  p #{__('download.shareTheLove')}
+  p #{__('download.notFound.metaFileNotFound')}
+  p #{__('download.notFound.title')}
+  h1 Instructions
+  p #{__('instructions.instructions')}
+  p #{__('instructions.instructionsBlock')}
+  p #{__('instructions.instructionsTitle')}
+  p #{__('instructions.instructionThanks')}
+  h1 404
+  p #{__('error404.title')}
+  h1 Validation
+  p!= __mf('validation.image', { attribute: __('home.form.file.title') })
+  p!= __mf('validation.max_array', { attribute: __('home.form.file.title'), max: 20 })
+  p!= __mf('validation.max_file', { attribute: __('home.form.file.title'), max: 4000 })
+  p!= __mf('validation.max_numeric', { attribute: __('home.form.name.title'), max: 20 })
+  p!= __mf('validation.max_string', { attribute: __('home.form.name.title'), max: 20 })
+  p!= __mf('validation.minimum_size_image', { attribute: __('home.form.file.title') })
+  p!= __mf('validation.regex', { attribute: __('home.form.name.title'), max: 20 })
+  p!= __mf('validation.required', { attribute: __('home.form.name.title'), max: 20 })
+  p!= __mf('validation.squared_image', { attribute: __('home.form.file.title'), max: 20 })

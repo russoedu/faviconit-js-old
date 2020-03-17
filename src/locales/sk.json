@@ -1,81 +1,82 @@
 {
-  "general": {
-    "ogTitle": "bezplatný nástroj pre tvorbu favicon & apple touch icon",
-    "ogDescription": "nahrajte obrázok pre vytvorenie favicon, apple touch icon a HTML hlavičiek, fungujúce vo všetkých zariadeniach a prehliadačoch ",
-    "helpUsTranslate": "pomôžte nám s prekladom :)",
-    "pageTitle": "faviconit :: bezplatný nástroj na tvorbu favicon & apple touch icon pre všetky zariadenia a prehliadače"
-  },
-  "home": {
-    "meta": "nahrajte obrázok pre vytvorenie favicon, apple touch icon a HTML hlavičiek, fungujúce vo všetkých zariadeniach a prehliadačoch ",
-    "socialImage": "bezplatný nástroj na tvorbu favicon &\napple touch icon pre všetky zariadenia a prehliadače",
-    "highlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> vytvára <i>favicons</i>, <i>apple touch icons</i> a <i>HTML hlavičku</i> pre všetky zariadenia a prehlaidače",
-    "subHighlight": "je zdarma! najjednoduchší nástroj pre tvorbu favicons, aký ste kedy videli. jediné, čo potrebujete je nahrať obrázok!",
-    "form": {
-      "title": "vyplnte formulár a vytvorte si svoje favicon zdarma",
-      "file": {
-        "title": "favicon súbor",
-        "choose": "vyberte súbor",
-        "dragNDrop": "<span>alebo ho chyťte a vložte sem</span>",
-        "help": "obrázok musí mať <strong>minimálne 310x310px</strong> a <strong>maximálne 1MB</strong></strong>",
-        "editImage": "upraviť obrázok",
-        "swapImage": "zmeniť obrázok",
-        "abortUpload": "zrušiť",
-        "multiDragError": "chyťte a vložte jeden súbor",
-        "uploaderBlockMessage": "nahrávam súbor…",
-        "uploadError": "chyba pri pokuse o uloženie obrázku. prosím, skúste to znova."
-      },
-      "name": {
-        "title": "favicon meno",
-        "help": "povolené sú len písmená, čísla, '.', '-' a '_' ",
-        "placeholder": "ponechajte prázdne, ak chcete použiť \"favicon\" ako meno"
-      },
-      "folder": {
-        "title": "favicon adresár",
-        "help": "povolené sú len písmená, čísla, ':', '.', and '/' allowed",
-        "placeholder": "ponechajte prázdne, ak chcete nechať favicon v root adresári"
-      },
-      "version": {
-        "title": "favicon verzia",
-        "help": "povolené sú len písmená, čísla, '.', '-' a '_' ",
-        "placeholder": "ponechajte prázdne, ak túto možnosť nechcete využiť"
-      },
-      "advancedAccordionColapsed": "pokročilé",
-      "advancedAccordionExpanded": "štandardné"
-    }
-  },
-  "download": {
-    "meta": "stiahnite zip súbor obsahujúci favicons, apple touch obrázky a inštrukcie k HTML hlavičkám",
-    "thanks": "ďakujeme za použitie faviconit pre tvorbu favicons, apple touch icons a HTML hlavičiek!",
-    "downloadReady": "vaše favicons sú pripravené :)",
-    "availability": "vaše favicons budú dostupné na stiahnutie minimálne 1 hodinu na tejto URL",
-    "donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"A7ZYJFGJ94X5L\" /><input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Donate with PayPal button\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_SK/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
-    "download": "stiahnuť moje favicons",
-    "goBackLink": "ísť späť",
-    "goBackText": "a nahrať obrázok pre vytvorenie favicons, apple touch icons a HTML hlavičiek",
-    "shareTheLove": "jednoduché, však? zdieľajte lásku s priateľmi",
-    "notFound": {
-      "metaFileNotFound": "súbor nedostupný. nahrajte obrázok pre vytvorenie favicon, apple touch icon a HTML hlavičiek",
-      "title": "prepáčte… nemôžeme nájsť túto favicon na našich serveroch"
-    }
-  },
-  "instructions": {
-    "instructions": "skopírujte súbory do root adresáru vašej stránky a pridajte tento kód do HTML <HEAD> tagu:",
-    "instructionsBlock": "faviconit.com favicons",
-    "instructionsTitle": "faviconit-inštrukcie",
-    "instructionThanks": "ďakujeme za používanie faviconit!"
-  },
-  "error404": {
-    "title": "ups… stránkú, ktorú hľadáte nevieme nájsť"
-  },
-  "validation": {
-    "image": ":attribute musí byť obrázok.",
-    "max_array": ":attribute nemôže mať viac ako :max prvkov.",
-    "max_file": ":attribute nemôže byť väčší ako :max kilobajtov.",
-    "max_numeric": ":attribute nemôže byť väčší ako :max.",
-    "max_string": ":attribute nemôže byť väčší ako :max znakov.",
-    "minimum_size_image": "<strong>favicon súbor</strong> musí mať minimálne 200px na každej strane. prosím, nahrajte väčší obrázok.",
-    "regex": ":attribute má neplatný formát.",
-    "required": ":attribute je požadované.",
-    "squared_image": ":attribute musí byť a <strong>štvorec</strong> s veľkosťou minimálne 310px. nahrajte obrázok orežte ho. kliknite na 'upraviť obrázok'"
+	"general": {
+		"ogTitle": "bezplatný nástroj pre tvorbu favicon & apple touch icon",
+		"ogDescription": "nahrajte obrázok pre vytvorenie favicon, apple touch icon a HTML hlavičiek, fungujúce vo všetkých zariadeniach a prehliadačoch ",
+		"helpUsTranslate": "pomôžte nám s prekladom :)",
+		"pageTitle": "faviconit :: bezplatný nástroj na tvorbu favicon & apple touch icon pre všetky zariadenia a prehliadače"
+	},
+	"home": {
+		"meta": "nahrajte obrázok pre vytvorenie favicon, apple touch icon a HTML hlavičiek, fungujúce vo všetkých zariadeniach a prehliadačoch ",
+		"socialImage": "bezplatný nástroj na tvorbu favicon &\napple touch icon pre všetky zariadenia a prehliadače",
+		"highlight": "<span class=\"brand\">favicon<span class=\"orange\">it</span></span> vytvára <i>favicons</i>, <i>apple touch icons</i> a <i>HTML hlavičku</i> pre všetky zariadenia a prehlaidače",
+		"subHighlight": "je zdarma! najjednoduchší nástroj pre tvorbu favicons, aký ste kedy videli. jediné, čo potrebujete je nahrať obrázok!",
+		"form": {
+			"title": "vyplnte formulár a vytvorte si svoje favicon zdarma",
+			"file": {
+				"title": "favicon súbor",
+				"choose": "vyberte súbor",
+				"dragNDrop": "<span>alebo ho chyťte a vložte sem</span>",
+				"help": "obrázok musí mať <strong>minimálne 310x310px</strong> a <strong>maximálne 1MB</strong></strong>",
+				"editImage": "upraviť obrázok",
+				"swapImage": "zmeniť obrázok",
+				"abortUpload": "zrušiť",
+				"multiDragError": "chyťte a vložte jeden súbor",
+				"uploaderBlockMessage": "nahrávam súbor…",
+				"uploadError": "chyba pri pokuse o uloženie obrázku. prosím, skúste to znova."
+			},
+			"name": {
+				"title": "favicon meno",
+				"help": "povolené sú len písmená, čísla, '.', '-' a '_' ",
+				"placeholder": "ponechajte prázdne, ak chcete použiť \"favicon\" ako meno"
+			},
+			"folder": {
+				"title": "favicon adresár",
+				"help": "povolené sú len písmená, čísla, ':', '.', and '/' allowed",
+				"placeholder": "ponechajte prázdne, ak chcete nechať favicon v root adresári"
+			},
+			"version": {
+				"title": "favicon verzia",
+				"help": "povolené sú len písmená, čísla, '.', '-' a '_' ",
+				"placeholder": "ponechajte prázdne, ak túto možnosť nechcete využiť"
+			},
+			"advancedAccordionColapsed": "pokročilé",
+			"advancedAccordionExpanded": "štandardné",
+			"file,help": "home.form.file,help"
+		}
+	},
+	"download": {
+		"meta": "stiahnite zip súbor obsahujúci favicons, apple touch obrázky a inštrukcie k HTML hlavičkám",
+		"thanks": "ďakujeme za použitie faviconit pre tvorbu favicons, apple touch icons a HTML hlavičiek!",
+		"downloadReady": "vaše favicons sú pripravené :)",
+		"availability": "vaše favicons budú dostupné na stiahnutie minimálne 1 hodinu na tejto URL",
+		"donationButton": "<div class=\"paypal-donate\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"hosted_button_id\" value=\"A7ZYJFGJ94X5L\" /><input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif\" border=\"0\" name=\"submit\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Donate with PayPal button\" /><img alt=\"\" border=\"0\" src=\"https://www.paypal.com/en_SK/i/scr/pixel.gif\" width=\"1\" height=\"1\" /></form></div>",
+		"download": "stiahnuť moje favicons",
+		"goBackLink": "ísť späť",
+		"goBackText": "a nahrať obrázok pre vytvorenie favicons, apple touch icons a HTML hlavičiek",
+		"shareTheLove": "jednoduché, však? zdieľajte lásku s priateľmi",
+		"notFound": {
+			"metaFileNotFound": "súbor nedostupný. nahrajte obrázok pre vytvorenie favicon, apple touch icon a HTML hlavičiek",
+			"title": "prepáčte… nemôžeme nájsť túto favicon na našich serveroch"
+		}
+	},
+	"instructions": {
+		"instructions": "skopírujte súbory do root adresáru vašej stránky a pridajte tento kód do HTML <HEAD> tagu:",
+		"instructionsBlock": "faviconit.com favicons",
+		"instructionsTitle": "faviconit-inštrukcie",
+		"instructionThanks": "ďakujeme za používanie faviconit!"
+	},
+	"error404": {
+		"title": "ups… stránkú, ktorú hľadáte nevieme nájsť"
+	},
+	"validation": {
+		"image": ":attribute musí byť obrázok.",
+		"max_array": ":attribute nemôže mať viac ako :max prvkov.",
+		"max_file": ":attribute nemôže byť väčší ako :max kilobajtov.",
+		"max_numeric": ":attribute nemôže byť väčší ako :max.",
+		"max_string": ":attribute nemôže byť väčší ako :max znakov.",
+		"minimum_size_image": "<strong>favicon súbor</strong> musí mať minimálne 200px na každej strane. prosím, nahrajte väčší obrázok.",
+		"regex": ":attribute má neplatný formát.",
+		"required": ":attribute je požadované.",
+		"squared_image": ":attribute musí byť a <strong>štvorec</strong> s veľkosťou minimálne 310px. nahrajte obrázok orežte ho. kliknite na 'upraviť obrázok'"
   }
 }
