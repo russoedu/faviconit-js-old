@@ -29,7 +29,7 @@
   "homepage": "https://github.com/russoedu/faviconit#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "coveralls": "^3.0.9",
+    "coveralls": "^3.0.11",
     "esdoc": "^1.1.0",
     "esdoc-node": "^1.0.5",
     "esdoc-node-plugin": "^0.2.1",
